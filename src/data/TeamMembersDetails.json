@@ -1,0 +1,77 @@
+[{
+  "id":  "67376f1a1955b4dd5315c4a1",
+  "name": "Annelise Holguin",
+  "position": "Graduate student (M.S.)",
+  "desc": "Crop Yield Predictions using ML and remote sensing",
+  "email": "annelise.holguin@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1731686169/heecndo0aau4rhfgzvud.jpg",
+  "order": "2",
+  "contributions" : []
+},
+{
+  "id":  "673b77176cfbde29aec24ffb",
+  "name": "Farhaan Cooverji",
+  "position": "Graduate student (M.S.)",
+  "desc": "Regional Water Balance Analysis for Quantifying Snow Water Supply in Snow-Dominant Watersheds.",
+  "email": "uhw2@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1731950357/qeyr2zxzyat3gpfiqglv.jpg",
+  "order": "3",
+  "contributions" : []
+},
+{
+  "id":  "6741c5593202e8307dff9f84",
+  "name": "Jipeng Liu",
+  "position": "Graduate student (M.S.)",
+  "desc": "UAV remote sensing of snow and soil moisture detections.",
+  "email": "ibo20@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1732363609/l06iobx0h2pvwkscyp5b.jpg",
+  "order": "4",
+  "contributions" : []
+},
+{
+  "id":  "676052dedbdbbed77acf55b7",
+  "name": "Himmat Basnet",
+  "position": "Graduate student (M.S.)",
+  "desc": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
+  "email": "gyc22@txstate.edu",
+  "linkedin": "",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1734365916/jin4iggzlggnqbjxokab.jpg",
+  "order": "5",
+  "contributions" : []
+},
+{
+  "id": "676053ccdbdbbed77acf55b9",
+  "name": "Md Shah Mominul Islam Momin",
+  "position": "Graduate student (M.S.)",
+  "desc": "Impact of Coastal Flooding on Transportation Systems and Social Equity",
+  "email": "shah_mominul_islam@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/md-shah-mominul-islam-1104010/",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1734366155/z8fsk0rcviszdhuzfjge.jpg",
+  "order": "6",
+  "contributions" : []
+},
+{
+  "id": "67605a9fdbdbbed77acf5606",
+  "name": "Eunsaem Cho",
+  "position": "Postdoctoral Scientist (affiliated with NASA GSFC/UMD)",
+  "desc": "Snowmelt-Groundwater Interactions for Improved Flood Prediction Using Land Surface Modeling and Data Assimilation",
+  "email": "saemrnt@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/saemrnt/",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1734367902/slfppgtmg8nqcmmrdlsh.jpg",
+  "order": "1",
+  "contributions" : []
+},
+{
+  "id": "67605945dbdbbed77acf55ec",
+  "name": "Samar Ranjit",
+  "position": "Undergraduate Research Assistant",
+  "desc": "Undergraduate researcher passionate about geospatial data analysis and web development.\nContributing to crop yield stability studies at the Cho Lab.",
+  "email": "owr15@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/samarranjit/",
+  "img": "https://res.cloudinary.com/cholab/image/upload/v1734367556/ezik9irhm2j5iez18poq.jpg",
+  "order": "8",
+  "contributions" : []
+}]
