@@ -8,6 +8,7 @@ import Loader from "../../components/Loader";
 import { Button, Modal } from "antd";
 import { TeamMember } from "@/types";
 import { useTeamMembersDetails } from "@/hooks/useTeamMembersDetails";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function OtherMember() {
   // For the modal:
@@ -35,7 +36,7 @@ function OtherMember() {
   // Sorting the team data based on the "order" key
   const sortedTeam = memberDetails
     ?.slice()
-    .sort((a: TeamMember, b: TeamMember) => a.order.localeCompare(b.order));
+    .sort((a: TeamMember, b: TeamMember) => a.order - b.order);
 
   return (
     <>
@@ -97,9 +98,25 @@ function OtherMember() {
             </div>
             <div className="">
               {selectedMember?.contributions?.map((contribution, index) => (
-                <p key={index} className="text-slate-600 leading-relaxed mb-4">
-                  {contribution || "No contributions listed."}
-                </p>
+                <ul
+                  style={{ listStyleType: "disc", paddingLeft: "20px" }}
+                  key={`${selectedMember.id}-contribution-${index}`}
+                  className="text-slate-600 leading-relaxed mb-4 flex"
+                >
+                  <li>
+                    {contribution?.desc || "No contributions listed."}
+                    {contribution?.link && (
+                      <Link
+                        href={contribution.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline ml-2"
+                      >
+                        <FaExternalLinkAlt />
+                      </Link>
+                    )}
+                  </li>
+                </ul>
               )) || (
                 <p className="text-slate-600 leading-relaxed mb-4">
                   No contributions listed.
@@ -122,7 +139,7 @@ function OtherMember() {
             {sortedTeam &&
               sortedTeam.map((item: TeamMember) => (
                 <div
-                  key={item.id}
+                  key={`${item.name}-${item.id}`}
                   onClick={() => {
                     showModal();
                     setSelectedMember(item);

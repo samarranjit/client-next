@@ -11,7 +11,19 @@ export function useTeamMembersDetails() {
         setLoading(true);
         // Simulate a data fetch
         setTimeout(() => {
-            setData(TeamMembersDetails);
+            setData(
+                TeamMembersDetails.map((member) => ({
+                    id: member.id ?? "",
+                    name: member.name,
+                    position: member.position,
+                    desc: member.desc,
+                    email: member.email,
+                    linkedin: member.linkedin,
+                    img: member.img,
+                    order: member.order,
+                    contributions: member.contributions ?? [],
+                }))
+            );
             setLoading(false);
         }, 1000);
     }, []);

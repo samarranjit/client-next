@@ -10,7 +10,8 @@
   "__v": 0,
   "collaborators": "Carrie Vuyovich (NASA), Bailing Li (NASA/UMD), Eunsaem Cho (NASA/UMD), Jennifer Jacobs (Univ. New Hampshire)",
   "period": "2023-2026",
-  "sponsors": "NASA"
+  "sponsors": "NASA",
+  "badge": "Climate Change"
 },
 {
   "_id": "6760577a0e5a11ec7d9aefcb",
@@ -25,7 +26,7 @@
   "period": "2024-2027",
   "sponsors": "Department of Energy (DOE)",
   "collaborators": "San Hwang (TXST), Ripendra Awal (PVAMU)",
-  "__v": 0
+  "badge": "Hydrology"
 },
 {
   "_id": "6762bb9f6682b672d052c936",
@@ -39,7 +40,7 @@
   "period": "2024-2027",
   "sponsors": "U.S. Department of the Interior Bureau of Reclamation",
   "collaborators": "Eric Sproles (Montana State Univ) & Samuel Tuttle (Syracuse Univ)",
-  "__v": 0
+  "badge": "Remote Sensing"
 },
 {
   "_id": "6762bfee03d13a31b2606ec9",
@@ -53,7 +54,7 @@
   "period": "2024-",
   "sponsors": "USDA",
   "collaborators": "Simon Kraatz, David Johnson, Feng Gao, & Martha Anderson (USDA)",
-  "__v": 0
+  "badge": "Agriculture"
 },
 {
   "_id": "6762c0b303d13a31b2606eef",
@@ -67,7 +68,7 @@
   "period": "2024-2025",
   "sponsors": "Department of Transportation (DOT)",
   "collaborators": "Subasish Das (TXST)",
-  "__v": 0
+  "badge": "Transportation"
 },
 {
   "_id": "6762cd91674c470f7edb7573",
@@ -82,5 +83,5 @@
   "period": "2024-2025",
   "sponsors": " TXST Center for Analytics and Data Science",
   "collaborators": "",
-  "__v": 0
+  "badge": "Hydrology"
 }]

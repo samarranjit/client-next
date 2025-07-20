@@ -11,6 +11,10 @@ export interface Member {
   email?: string;
   isActive: boolean;
 }
+export interface Contribution {
+  desc?: string;
+  link?: string;
+}
 
 export interface TeamMember {
   id: string;
@@ -20,8 +24,17 @@ export interface TeamMember {
   img: string;
   linkedin?: string;
   email?: string;
-  order: string;
-  contributions?: string[];
+  order: number;
+  contributions: Contribution[]; // always an array, can be empty
+}
+
+export interface AlumniMember{
+  id: string
+  name: string
+  description: string
+  imageUrl?: string
+  graduationYear?: number | null
+  currentPosition?: string
 }
 
 export interface NewsItem {
@@ -43,6 +56,7 @@ export interface PublicationItem {
   status: string;
   publication_sequence?: number;
   journal?: string;
+  doi?: string; 
 }
 
 export interface ResearchProject {
@@ -67,6 +81,7 @@ export interface ResearchCardData {
   sponsors: string;
   collaborators: string;
   body: string[];
+  badge?: string;
 }
 
 export interface AppContextType {

@@ -25,9 +25,9 @@ function Footer() {
           </svg>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between p-1 pt-5 md:p-10 border-secondary">
-          <div className="Cho flex justify-center m-auto items-center w-[70%] md:w-[90%]">
-            <div className="ml-0 md:ml-10 w-[55%] md:w-[70%] p-[0.75rem] md:p-[1.5rem] aspect-square overflow-hidden h-full md:h-auto bg-white rounded-full flex justify-center items-center shadow-lg">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between p-1 pt-5 w-full md:py-10 md:w-[90%] border-secondary">
+          <div className="Cho flex justify-center m-auto items-center w-[90%] md:w-[100%]">
+            <div className="ml-0 md:ml-10 w-[70%] md:w-[80%] lg:w-[70%] p-[0.75rem] md:p-[1.5rem] aspect-square overflow-hidden h-full md:h-auto bg-white rounded-full flex justify-center items-center shadow-lg">
               <Image
                 className="bg-white w-full h-full object-contain flex items-center justify-center"
                 src="/ChoLabLogo.png"
@@ -39,28 +39,28 @@ function Footer() {
           </div>
 
           <div className="contact block flex-col text-3xl text-center text-tertiary font-semibold items-center justify-start col-span-1">
-            <p className="flex p-0 md:p-5 pb-2 mb-3 text-center md:text-left items-start text-[2rem] md:text-3xl w-full my-5">
+            <p className="flex p-0 md:p-5 pb-2 mb-3 text-center md:text-left items-center md:items-start text-[2rem] md:text-3xl w-full my-5 justify-center md:justify-start">
               {/* <section className="border-b-[2px] border-tertiary w-full inline text-center"> */}
               Contact
               {/* </section> */}
             </p>
 
-            <div className="address text-primary font-light text-sm text-center md:text-left">
-              <p className="p-0 md:p-2 text-tertiary py-5 text-xl md:text-2xl my-2">
+            <div className="address text-primary font-light text-center md:text-left md:space-y-5 ">
+              <p className="p-0 md:p-2 text-tertiary py-5 text-2xl md:text-2xl my-2">
                 Mailing Address:
               </p>
-              <p className="p-0 md:p-2 text-sm md:text-xl py-2 md:py-0">
+              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
                 Bruce and Ingram, Room 5311
               </p>
-              <p className="p-0 md:p-2 text-sm md:text-xl py-2 md:py-0">
+              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
                 Texas State University
               </p>
-              <p className="p-0 md:p-2 text-sm md:text-xl py-2 md:py-0">
+              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
                 San Marcos, Texas - 78666
               </p>
             </div>
 
-            <div className="text-sm md:text-2xl text-left p-0 md:p-7 my-2 md:my-0 cursor-pointer">
+            <div className="text-xl md:text-2xl md:text-left p-0 md:p-7 my-2 md:my-0 cursor-pointer">
               eunsang.cho@txstate.edu
             </div>
 
@@ -94,40 +94,40 @@ function Footer() {
               Quick Links
             </p>
 
-            <div className="links text-sm md:text-xl flex flex-col md:grid md:grid-cols-3 gap-x-7 text-primary mx-auto text-center w-[100%] justify-center items-center col-span-2 md:col-span-2">
+            <div className="links text-lg md:text-xl grid grid-cols-2 md:grid-cols-3 gap-x-7 text-primary mx-auto text-center w-[100%] justify-center items-center col-span-2 md:col-span-2">
               <Link
                 href="/about"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 PEOPLE
               </Link>
               <Link
                 href="/news"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 LATEST NEWS
               </Link>
               <Link
                 href="/publication"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 PUBLICATIONS
               </Link>
               <Link
                 href="/research"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 RESEARCH
               </Link>
               <Link
                 href="/opportunities"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 OPPORTUNITIES
               </Link>
               <Link
                 href="/mentorship"
-                className="p-1 md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
+                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
               >
                 MENTORSHIP
               </Link>

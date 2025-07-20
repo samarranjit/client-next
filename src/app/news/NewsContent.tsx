@@ -4,10 +4,11 @@ import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
 import { useNewsPosts } from "@/hooks/useNewsPosts";
 import { NewsItem } from "@/types";
+import { Spin } from "antd";
 
 export default function NewsContent() {
   // const { Data } = useContext(allContexts);
-  const { NewsPosts } = useNewsPosts();
+  const { NewsPosts, isLoading } = useNewsPosts();
   // Sort news in descending order by published date
   const sortedNews =
     NewsPosts && NewsPosts
@@ -32,11 +33,17 @@ export default function NewsContent() {
             </section>
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-7 justify-evenly gap-1 md:gap-10 lg:gap-20 width-[100%] mb-[2rem] items-center">
-          {sortedNews?.map((item: NewsItem) => {
-            return <NewsCard key={item._id} prop={item} />;
-          })}
-        </div>
+        {isLoading ? (
+          <div className="h-[80vh] items-center justify-center flex p-5">
+            <Spin className="font-bold text-2xl" />
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-7 justify-evenly gap-1 md:gap-10 lg:gap-20 width-[100%] mb-[2rem] items-center">
+            {sortedNews?.map((item: NewsItem) => {
+              return <NewsCard key={item._id} prop={item} />;
+            })}
+          </div>
+        )}
       </div>
       <Footer />
     </>

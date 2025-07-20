@@ -18,14 +18,14 @@ function DrCho() {
   return (
     <div
       id="DrChoInfo"
-      className="p-7 md:px-8 md:pt-[80px] lg:px-[5rem] py-5 flex flex-col md:flex-row gap-0 md:gap-[2rem] lg:gap-[7rem] items-center justify-center"
+      className="p-7 md:px-8 md:pt-[80px] lg:pt-5 lg:px-[5rem] py-5 flex flex-col md:flex-row gap-0 md:gap-[2rem] lg:gap-[7rem] items-center justify-center"
     >
       <div className="flex gap-0 md:gap-[2rem] mx-auto flex-col md:flex-row items-center">
         <div className="left flex justify-center h-full md:w-[55%] lg:w-[30%] items-center my-10 md:my-0 items-right">
           <div className="image flex items-center justify-left md:w-[100%] items-right">
             <Image
               className="rounded-[50%] w-[100%] flex items-center justify-center mt-5 mb-0 md:my-[50px]"
-              src="https://res.cloudinary.com/cholab/image/upload/v1736280925/drcholinkedinphoto_ahkbjg.jpg"
+              src="/images/team/DrCho.png"
               alt="Dr. Eunsang Cho"
               width={400}
               height={400}

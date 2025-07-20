@@ -5,8 +5,8 @@
   "desc": "Crop Yield Predictions using ML and remote sensing",
   "email": "annelise.holguin@txstate.edu",
   "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1731686169/heecndo0aau4rhfgzvud.jpg",
-  "order": "2",
+  "img": "/images/team/AnneliseHolguin.png",
+  "order": 2,
   "contributions" : []
 },
 {
@@ -16,9 +16,12 @@
   "desc": "Regional Water Balance Analysis for Quantifying Snow Water Supply in Snow-Dominant Watersheds.",
   "email": "uhw2@txstate.edu",
   "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1731950357/qeyr2zxzyat3gpfiqglv.jpg",
-  "order": "3",
-  "contributions" : []
+  "img": "/images/team/FarhaanCooverji.png",
+  "order": 3,
+  "contributions" : [
+    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
+     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
+  ]
 },
 {
   "id":  "6741c5593202e8307dff9f84",
@@ -27,9 +30,12 @@
   "desc": "UAV remote sensing of snow and soil moisture detections.",
   "email": "ibo20@txstate.edu",
   "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1732363609/l06iobx0h2pvwkscyp5b.jpg",
-  "order": "4",
-  "contributions" : []
+  "img": "/images/team/JipengLiu.png",
+  "order": 4,
+   "contributions" : [
+    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
+     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
+  ]
 },
 {
   "id":  "676052dedbdbbed77acf55b7",
@@ -38,8 +44,8 @@
   "desc": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
   "email": "gyc22@txstate.edu",
   "linkedin": "",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1734365916/jin4iggzlggnqbjxokab.jpg",
-  "order": "5",
+  "img": "/images/team/HimmatBasnet.png",
+  "order": 5,
   "contributions" : []
 },
 {
@@ -49,8 +55,8 @@
   "desc": "Impact of Coastal Flooding on Transportation Systems and Social Equity",
   "email": "shah_mominul_islam@txstate.edu",
   "linkedin": "https://www.linkedin.com/in/md-shah-mominul-islam-1104010/",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1734366155/z8fsk0rcviszdhuzfjge.jpg",
-  "order": "6",
+  "img": "/images/team/Moomin.png",
+  "order": 6,
   "contributions" : []
 },
 {
@@ -60,9 +66,12 @@
   "desc": "Snowmelt-Groundwater Interactions for Improved Flood Prediction Using Land Surface Modeling and Data Assimilation",
   "email": "saemrnt@gmail.com",
   "linkedin": "https://www.linkedin.com/in/saemrnt/",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1734367902/slfppgtmg8nqcmmrdlsh.jpg",
-  "order": "1",
-  "contributions" : []
+  "img": "/images/team/EunsaemCho.png",
+  "order": 1,
+   "contributions" : [
+    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
+     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
+  ]
 },
 {
   "id": "67605945dbdbbed77acf55ec",
@@ -71,7 +80,28 @@
   "desc": "Undergraduate researcher passionate about geospatial data analysis and web development.\nContributing to crop yield stability studies at the Cho Lab.",
   "email": "owr15@txstate.edu",
   "linkedin": "https://www.linkedin.com/in/samarranjit/",
-  "img": "https://res.cloudinary.com/cholab/image/upload/v1734367556/ezik9irhm2j5iez18poq.jpg",
-  "order": "8",
+  "img": "/images/team/SamarRanjit.png",
+  "order": 8,
   "contributions" : []
-}]
+},
+{
+  "_id":  "687283c539fe8fb737d3a5e8",
+  "name": "Hrishant Sharma",
+  "position": "Undergraduate Research Assistant",
+  "desc": "River Flow prediction using LSTM deep learning models , with a strong interest in data science.",
+  "email": "pfj19@txstate.edu",
+  "linkedin": "https://www.linkedin.com/in/hrishant-sh/",
+  "img": "/images/team/HrishantSharma.png",
+  "order": 9
+},
+{
+  "_id": "6872846b39fe8fb737d3a5ea",
+  "name": "Samrakshyan Adhikari",
+  "position": "Undergraduate Research Assistant",
+  "desc": "Exploring wildfire susceptibility mapping using seasonal environmental data and deep learning (CNN).",
+  "email": "nbb38@txstate.edu",
+  "linkedin": " https://www.linkedin.com/in/samrakshyan-adhikari-625473269/",
+  "img": "/images/team/SamrakshyanAdhikari.png",
+  "order": 10
+}
+]

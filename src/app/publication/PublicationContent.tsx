@@ -47,6 +47,7 @@ function Publication() {
     url: pub.link,
     image: pub.imgUrl,
     description: pub.details,
+    doi: pub.doi, // Include DOI if available
   }));
 
   return (
@@ -112,6 +113,7 @@ function Publication() {
                         details={item.details}
                         link={item.link}
                         imgUrl={item.imgUrl}
+                        doi={item.doi} // Include DOI if available
                       />
                     ) : null
                   )}
@@ -149,6 +151,7 @@ function Publication() {
                                 details={item.details}
                                 link={item.link}
                                 imgUrl={item.imgUrl}
+                                doi={item.doi} // Include DOI if available
                               />
                             )
                           )

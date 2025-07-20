@@ -14,7 +14,7 @@ function ResearchCard({ research }: ResearchCardProps) {
 
   const handleReadMore = (_id: string) => {
     router.push(`/research/${_id}`);
-    window.scrollTo({ top: 0 });
+    // window.scrollTo({ top: 0 });
   };
 
   const truncateText = (text: string, wordLimit: number) => {
@@ -30,7 +30,7 @@ function ResearchCard({ research }: ResearchCardProps) {
       {/* Hover glow effect */}
       <div className="absolute -inset-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-2xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
 
-      <Card className="relative bg-white border-0 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden h-full">
+      <Card className="relative bg-white border-0 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden h-full justify-between">
         {/* Image Section */}
         <div className="relative overflow-hidden rounded-xl mb-6">
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
@@ -47,24 +47,24 @@ function ResearchCard({ research }: ResearchCardProps) {
           {/* Floating badge */}
           <div className="absolute top-4 right-4 z-20">
             <div className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-gray-700 shadow-lg">
-              Research
+              {research.badge || "Research"}
             </div>
           </div>
         </div>
 
         {/* Content Section */}
-        <div className="px-6 pb-6">
+        <div className="px-6 pb-6 h-[100%] my-auto flex flex-col justify-between">
           {/* Title */}
           <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight min-h-[3rem]  transition-colors duration-300">
             {truncateText(research.title, 12)}
           </h2>
 
           {/* Metadata Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 justify-evenly">
             {research.period && (
-              <div className="flex items-center gap-2 p-3 bg-blue-50 rounded-lg border border-blue-100">
+              <div className="flex items-center gap-2 p-3 bg-secondary/5 rounded-lg border border-secondary/8">
                 <div className="p-2 bg-blue-100 rounded-lg">
-                  <FaCalendarAlt className="h-3 w-3 text-blue-600" />
+                  <FaCalendarAlt className="h-3 w-3 text-secondary/90" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-xs font-semibold text-blue-800 mb-1">
@@ -78,15 +78,15 @@ function ResearchCard({ research }: ResearchCardProps) {
             )}
 
             {research.sponsors && (
-              <div className="flex items-center gap-2 p-3 bg-purple-50 rounded-lg border border-purple-100 md:col-span-2">
-                <div className="p-2 bg-purple-100 rounded-lg">
-                  <FaMedal className="h-3 w-3 text-purple-600" />
+              <div className="flex items-center gap-2 p-3 bg-tertiary/3 rounded-lg border border-purple-100 md:col-span-2">
+                <div className="p-2 bg-orange-100 rounded-lg">
+                  <FaMedal className="h-3 w-3 text-tertiary/90" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs font-semibold text-purple-800 mb-1">
+                  <p className="text-xs font-semibold text-orange-500 mb-1">
                     Sponsors
                   </p>
-                  <p className="text-xs text-purple-600 truncate">
+                  <p className="text-xs text-orange-500 truncate">
                     {research.sponsors}
                   </p>
                 </div>
@@ -94,15 +94,15 @@ function ResearchCard({ research }: ResearchCardProps) {
             )}
 
             {research.collaborators && (
-              <div className="flex items-center gap-2 p-3 bg-green-50 rounded-lg border border-green-100 md:col-span-2">
-                <div className="p-2 bg-green-100 rounded-lg">
-                  <FaUsers className="h-3 w-3 text-green-600" />
+              <div className="flex items-center gap-2 p-3 bg-secondary/5 rounded-lg border border-blue-100 md:col-span-2">
+                <div className="p-2 bg-blue-100 rounded-lg">
+                  <FaUsers className="h-3 w-3 text-secondary/90" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs font-semibold text-green-800 mb-1">
+                  <p className="text-xs font-semibold text-blue-800 mb-1">
                     Collaborators
                   </p>
-                  <p className="text-xs text-green-600 truncate">
+                  <p className="text-xs text-blue-600 truncate">
                     {research.collaborators}
                   </p>
                 </div>
@@ -118,7 +118,7 @@ function ResearchCard({ research }: ResearchCardProps) {
           </div>
 
           {/* Action Button */}
-          <div className="flex justify-between items-center">
+          <div className="flex justify-end items-end">
             <button
               onClick={() => handleReadMore(research._id)}
               className="group/btn flex items-center gap-2 bg-gradient-to-r from-tertiary to-tertiary hover:bg-white text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg text-center active:scale-95 cursor-pointer w-[75%] mx-auto"

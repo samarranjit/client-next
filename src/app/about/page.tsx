@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
 import Link from "next/link";
 import Image from "next/image";
-
+import Alumni from "./Alumni";
 export const metadata: Metadata = {
   title: "About Team | The Cho Lab",
   description:
@@ -49,6 +49,7 @@ export default function AboutPage() {
       <Suspense fallback={<Loader />}>
         <DrCho />
         <OtherMember />
+        <Alumni />
       </Suspense>
 
       <div className="">
