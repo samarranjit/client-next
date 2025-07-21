@@ -7,24 +7,50 @@ export const metadata: Metadata = {
   title: "Publications | The Cho Lab",
   description:
     "Explore publications from Dr. Eunsang Cho and his team members at The Cho Lab, advancing research in hydrology, water resources, and climate science.",
-  keywords:
-    "research publications, Cho Lab, Texas State University, San Marcos, hydrology, climate science, water resources, environmental research, lab achievements, research publications, Cho Lab news, Eunsang Cho, hydrology research, climate change updates, water resources research, environmental science news, new findings, scientific articles, peer-reviewed papers, hydrology publications, climate research publications, water sustainability research, environmental science publications, academic publications, research articles, scientific research, hydrology and climate science, water resources publications, environmental research publications",
+  keywords: [
+    "research publications",
+    "Cho Lab",
+    "Texas State University",
+    "San Marcos",
+    "hydrology",
+    "climate science",
+    "water resources",
+    "environmental research",
+    "lab achievements",
+    "Cho Lab news",
+    "Eunsang Cho",
+    "hydrology research",
+    "climate change updates",
+    "scientific articles",
+    "peer-reviewed papers",
+    "water sustainability research",
+    "academic publications",
+    "scientific research",
+  ],
   openGraph: {
     title: "Publications | The Cho Lab",
     description:
       "Explore publications from Dr. Eunsang Cho and his team members at The Cho Lab, advancing research in hydrology, water resources, and climate science.",
     type: "website",
     url: "https://cholab.science/publication",
-  },
-  alternates: {
-    canonical: "https://cholab.science/publication",
+    images: [
+      {
+        url: "/StaticImages/PublicationsBgImage.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cho Lab research publications banner",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Publications | The Cho Lab",
     description:
       "Browse publications from Dr. Eunsang Cho and his team members at The Cho Lab, advancing research in hydrology, water resources, and climate science.",
-    images: ["https://cholab.science/ChoLabLogo.png"],
+    images: ["/StaticImages/PublicationsBgImage.jpg"],
+  },
+  alternates: {
+    canonical: "https://cholab.science/publication",
   },
 };
 

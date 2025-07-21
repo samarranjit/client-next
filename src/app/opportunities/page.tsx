@@ -8,20 +8,43 @@ export const metadata: Metadata = {
   title: "Opportunities | The Cho Lab",
   description:
     "Explore current research, internship, and fellowship opportunities at the Cho Lab, Texas State University. Join our team and contribute to water sustainability research.",
-  keywords:
-    "research opportunities, Cho Lab, Texas State University, San Marcos, graduate assistantship, undergraduate internship, postdoctoral fellowship, hydrology jobs, climate science jobs, water sustainability, environmental research positions",
+  keywords: [
+    "research opportunities",
+    "Cho Lab",
+    "Texas State University",
+    "San Marcos",
+    "graduate assistantship",
+    "undergraduate internship",
+    "postdoctoral fellowship",
+    "hydrology jobs",
+    "climate science jobs",
+    "water sustainability",
+    "environmental research positions",
+    "engineering internships",
+    "fluid mechanics research",
+    "environmental research positions",
+  ],
   openGraph: {
     title: "Opportunities | The Cho Lab",
     description:
       "Explore current research, internship, and fellowship opportunities at the Cho Lab, Texas State University. Join our team and contribute to water sustainability research.",
     type: "website",
     url: "https://cholab.science/opportunities",
+    images: [
+      {
+        url: "/StaticImages/Opportunities.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Research Opportunities at The Cho Lab",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Opportunities | The Cho Lab",
     description:
       "Explore current research, internship, and fellowship opportunities at the Cho Lab, Texas State University. Join our team and contribute to water sustainability research.",
+    images: ["/StaticImages/Opportunities.jpg"],
   },
   alternates: {
     canonical: "https://cholab.science/opportunities",

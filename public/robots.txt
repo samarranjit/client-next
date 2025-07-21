@@ -1,6 +1,9 @@
+# *
 User-agent: *
-Disallow: /admin
-Disallow: /adminlogin
 Allow: /
 
+# Host
+Host: https://cholab.science
+
+# Sitemaps
 Sitemap: https://cholab.science/sitemap.xml

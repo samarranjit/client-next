@@ -35,20 +35,48 @@ export const metadata: Metadata = {
   title: "Mentorship | The Cho Lab",
   description:
     "Explore courses taught by Dr. Cho at Texas State University: Fluid Mechanics, Hydrology, and Water, Climate, and Disasters. Explore course details and syllabi.",
-  keywords:
-    "research courses, Cho Lab, Texas State University, San Marcos, graduate assistantship, undergraduate internship, postdoctoral fellowship, hydrology, climate science, water sustainability, environmental research, engineering, courses, study, syllabus, fluid mechanics, hydrology, water climate disasters",
+  keywords: [
+    "research courses",
+    "Cho Lab",
+    "Texas State University",
+    "San Marcos",
+    "Dr. Eunsang Cho",
+    "graduate assistantship",
+    "undergraduate internship",
+    "postdoctoral fellowship",
+    "hydrology",
+    "climate science",
+    "water sustainability",
+    "environmental research",
+    "engineering",
+    "fluid mechanics",
+    "hydrology course",
+    "water climate disasters",
+    "syllabus",
+    "mentorship program",
+    "academic courses",
+  ],
   openGraph: {
     title: "Mentorship | The Cho Lab",
     description:
       "Explore courses taught by Dr. Cho at Texas State University: Fluid Mechanics, Hydrology, and Water, Climate, and Disasters. Explore course details and syllabi.",
     type: "website",
     url: "https://cholab.science/mentorship",
+    images: [
+      {
+        url: "/StaticImages/AlkekLib.jpg", // Make sure this exists in /public
+        width: 1200,
+        height: 630,
+        alt: "Mentorship Courses at The Cho Lab",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Mentorship | The Cho Lab at Texas State",
     description:
       "Explore courses taught by Dr. Cho at Texas State University: Fluid Mechanics, Hydrology, and Water, Climate, and Disasters. Explore course details and syllabi.",
+    images: ["/StaticImages/AlkekLib.jpg"],
   },
   alternates: {
     canonical: "https://cholab.science/mentorship",

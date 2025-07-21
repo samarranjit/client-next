@@ -18,33 +18,78 @@ export const metadata: Metadata = {
       "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
     type: "website",
     url: "https://cholab.science/about",
+    images: [
+      {
+        url: "/StaticImages/group_photo.jpg",
+        alt: "The Cho Lab Team at Texas State University",
+      },
+    ],
   },
+  twitter: {
+    title: "About The Team | The Cho Lab",
+    description:
+      "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
+    card: "summary_large_image",
+    images: ["/StaticImages/group_photo.jpg"],
+  },
+  keywords: [
+    "Cho Lab",
+    "The Cho Lab",
+    "Cho Lab members",
+    "Cho Lab team",
+    "research team Texas State University",
+    "Dr. Eunsang Cho",
+    "Eunsang Cho hydrology",
+    "Texas State University research lab",
+    "hydrology research team",
+    "climate science researchers",
+    "water resources researchers",
+    "environmental science lab",
+    "undergraduate research Texas",
+    "graduate research lab USA",
+    "postdoctoral opportunities Texas",
+    "faculty researchers Texas",
+    "STEM research team",
+    "San Marcos research labs",
+    "academic research team Texas",
+    "university research lab",
+  ],
   alternates: {
     canonical: "https://cholab.science/about",
   },
 };
 
 export default function AboutPage() {
-  //   const teamJsonLd = {
-  //     "@context": "https://schema.org",
-  //     "@type": "Person",
-  //     name: "Dr. Eunsang Cho",
-  //     jobTitle: "Principal Investigator, Assistant Professor",
-  //     image: "https://www.cholab.science/ChoLabLogo.png",
-  //     email: "eunsang.cho@txstate.edu",
-  //     sameAs: [
-  //       "https://www.linkedin.com/in/eunsang-cho-b455a8126/",
-  //       "https://www.researchgate.net/profile/Eunsang-Cho",
-  //       "https://scholar.google.co.kr/citations?user=G6CX5wsAAAAJ&hl=en",
-  //     ],
-  //     description:
-  //       "Dr. Eunsang Cho is an Assistant Professor at Texas State University, specializing in hydrology, water resources, and climate research. His work focuses on understanding the impacts of climate change on water systems.",
-  //     affiliation: "Texas State University",
-  //     url: "https://cholab.science/about",
-  //   };
+  const teamJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Dr. Eunsang Cho",
+    jobTitle: "Principal Investigator, Assistant Professor",
+    image: "https://www.cholab.science/ChoLabLogo.png",
+    email: "eunsang.cho@txstate.edu",
+    sameAs: [
+      "https://www.linkedin.com/in/eunsang-cho-b455a8126/",
+      "https://www.researchgate.net/profile/Eunsang-Cho",
+      "https://scholar.google.co.kr/citations?user=G6CX5wsAAAAJ&hl=en",
+    ],
+    description:
+      "Dr. Eunsang Cho is an Assistant Professor at Texas State University, specializing in hydrology, water resources, and climate research. His work focuses on understanding the impacts of climate change on water systems.",
+    affiliation: "Texas State University",
+    url: "https://cholab.science/about",
+  };
 
   return (
     <>
+      <head>
+        {/* Canonical tag */}
+        <link rel="canonical" href="https://cholab.science/about" />
+
+        {/*JSON-LD structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(teamJsonLd) }}
+        />
+      </head>
       <Navbar />
       <Suspense fallback={<Loader />}>
         <DrCho />
