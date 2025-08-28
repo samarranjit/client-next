@@ -5,11 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import MemberCard from "../../components/MemberCard";
 import Loader from "../../components/Loader";
-import { Button, Modal } from "antd";
+import { Button } from "antd";
 import { TeamMember } from "@/types";
 import { useTeamMembersDetails } from "@/hooks/useTeamMembersDetails";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import dynamic from "next/dynamic";
 
+const Modal = dynamic(() => import("antd").then((m) => m.Modal), {
+  ssr: false,
+});
 function OtherMember() {
   // For the modal:
   const [isModalOpen, setIsModalOpen] = useState(false);
