@@ -80,16 +80,6 @@ export default function AboutPage() {
 
   return (
     <>
-      <head>
-        {/* Canonical tag */}
-        <link rel="canonical" href="https://cholab.science/about" />
-
-        {/*JSON-LD structured data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(teamJsonLd) }}
-        />
-      </head>
       <Navbar />
       <Suspense fallback={<Loader />}>
         <DrCho />
