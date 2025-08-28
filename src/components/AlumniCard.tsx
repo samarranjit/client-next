@@ -44,9 +44,9 @@ export function AlumniCard({ member }: AlumniCardProps) {
                 </p>
               )}
             </div>
-            <p className="text-sm text-gray-600 leading-relaxed font-open line-clamp-3">
+            {/* <p className="text-sm text-gray-600 leading-relaxed font-open line-clamp-3">
               {member.description}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -21,7 +21,9 @@ export function useTeamMembersDetails() {
                     linkedin: member.linkedin,
                     img: member.img,
                     order: member.order,
+                    about: member.about ?? "",
                     contributions: member.contributions ?? [],
+                    publications: member.publications ?? [],
                 }))
             );
             setLoading(false);

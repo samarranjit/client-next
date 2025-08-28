@@ -129,7 +129,7 @@ export default function NewsArticleContent({ id }: NewsArticleProps) {
               )}
 
               {/* Article Body */}
-              <div className="prose prose-sm sm:prose-base lg:prose-lg xl:prose-xl prose-gray max-w-none">
+              <div className=" max-w-none">
                 <div className="space-y-4 sm:space-y-5 lg:space-y-6">
                   <div>
                     Date:{" "}

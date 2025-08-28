@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
@@ -27,58 +26,100 @@ export default function MemberCard({
   setIsModalOpen,
 }: MemberCardProps) {
   return (
-    <div className="bg-[#005B96] mt-10 py-5 flex flex-col justify-center items-center border-[3px] border-gray-500 border-opacity-10 sm:border-gray-250 sm:border-[1px] sm:text-left min-h-[600px] shadow-md shadow-gray-200 sm:my-5 md:my-5">
-      <div className="w-[200px] rounded-[50%] overflow-hidden bg-no-repeat bg-cover h-[200px] border-black border-[1px] flex items-center justify-center">
-        <Image
-          src={img}
-          alt={name}
-          loading="lazy"
-          className="w-full h-full object-cover"
-          style={{ borderRadius: "50%" }}
-          width={200}
-          height={200}
-        />
-      </div>
+    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[520px] md:h-[580px]">
+      {/* Subtle gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
 
-      <div className="div py-5 sm:p-1 sm:w-full text-center align-middle">
-        <h3 className="p-5 text-xl text-tertiary text-center font-semibold sm:text-2xl sm:px-1  sm:justify-center">
-          {name}
-        </h3>
-        <h2 className="text-primary text-base px-1 font-semibold sm:font-thin sm:text-[1rem] px-5 text-left justify-left md:text-center md:justify-center">
-          {position}
-        </h2>
-        <p className=" justify-center text-primary px-5 text-sm py-5  md:px-5  text-left justify-left text-wrap break-words">
-          {desc}
-        </p>
-
-        <div className="flex justify-around text-4xl sm:my-5 lg:px-[3rem]">
-          {email && (
-            <div className="p-5 text-primary sm:p-0 sm:text-left sm:justify-left">
-              <Link href={`mailto:${email}`}>
-                <section className="font-bold sm:p-1">
-                  <IoMail />
-                </section>
-              </Link>
-            </div>
-          )}
-
-          {linkedin && (
-            <p className="p-5 text-primary sm:px-0 sm:text-left sm:justify-left font-bold sm:p-1 break-keep">
-              <Link href={linkedin} target="_blank" rel="noopener noreferrer">
-                <FaLinkedin />
-              </Link>
-            </p>
-          )}
+      <div className="relative p-6 md:p-8 flex flex-col items-center text-center h-full justify-between">
+        {/* Profile Image with improved styling */}
+        <div className="relative mb-6">
+          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-xl group-hover:scale-105 transition-transform duration-300">
+            <Image
+              src={img}
+              alt={name}
+              loading="lazy"
+              className="w-full h-full object-cover"
+              width={160}
+              height={160}
+            />
+          </div>
+          {/* Decorative ring */}
+          <div className="absolute inset-0 rounded-full border-2 border-tertiary/30 animate-pulse"></div>
         </div>
 
-        {/* View Details Button */}
-        <Button
-          onClick={() => setIsModalOpen(true)}
-          className="bg-white/10 w-[75%] border-white/20 text-white hover:bg-white/20 hover:border-white/30 transition-all duration-200 font-medium px-6 py-3 h-auto rounded-lg"
-          size="middle"
-        >
-          View Details
-        </Button>
+        {/* Content section with controlled spacing */}
+        <div className="flex-1 flex flex-col items-center w-full min-h-0">
+          {/* Name with improved typography */}
+          <h3 className="text-xl md:text-2xl font-bold text-tertiary leading-tight mb-3">
+            {name}
+          </h3>
+
+          {/* Position with consistent height */}
+          <div className="px-4 py-2 bg-white/10 rounded-full border border-white/20 mb-4 min-h-[2.5rem] flex items-center">
+            <h4 className="text-primary text-sm md:text-base font-medium text-center line-clamp-2">
+              {position}
+            </h4>
+          </div>
+
+          {/* Description with fixed height and scrolling */}
+          <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20 px-2 mb-4 min-h-[100px] max-h-[140px]">
+            <p className="text-primary/90 text-sm md:text-base leading-relaxed">
+              {desc}
+            </p>
+          </div>
+        </div>
+
+        {/* Fixed bottom section */}
+        <div className="flex-shrink-0">
+          {/* Action buttons in horizontal layout: Mail, View Details, LinkedIn */}
+          <div className="flex items-center justify-center gap-3 w-full">
+            {/* Mail Button */}
+            {email && (
+              <Link
+                href={`mailto:${email}`}
+                className="flex-shrink-0 p-3 bg-white/10 rounded-full border border-white/20 text-primary hover:bg-white/20 hover:scale-110 transition-all duration-200 group/icon"
+              >
+                <IoMail className="w-5 h-5 group-hover/icon:animate-bounce" />
+              </Link>
+            )}
+
+            {/* View Details Button */}
+            <Button
+              onClick={() => setIsModalOpen(true)}
+              className="flex-1 bg-white/15 border-white/25 text-white hover:bg-white/25 hover:border-white/40 hover:shadow-lg transition-all duration-300 font-semibold px-4 py-2 h-auto rounded-lg backdrop-blur-sm group-hover:bg-tertiary/20 group-hover:border-tertiary/40"
+              size="middle"
+            >
+              <span className="flex items-center justify-center gap-2 text-sm">
+                View Details
+                <svg
+                  className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </span>
+            </Button>
+
+            {/* LinkedIn Button */}
+            {linkedin && (
+              <Link
+                href={linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-shrink-0 p-3 bg-white/10 rounded-full border border-white/20 text-primary hover:bg-white/20 hover:scale-110 transition-all duration-200 group/icon"
+              >
+                <FaLinkedin className="w-5 h-5 group-hover/icon:animate-bounce" />
+              </Link>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

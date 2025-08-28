@@ -1,11 +1,26 @@
-[{
-  "id": "100",
-  "name": "Dipesh Pandit",
-  "description": "About Dipesh Pandit",
-  "imageUrl": "/images/alumni/Dipesh_Pandit.jpg",
-  "graduationYear": null,
-  "currentPosition": "Undergraduate Research Assistant"
-}
+[
+  {
+    "id": "100",
+    "name": "Dipesh Pandit",
+    "description": "About Dipesh Pandit",
+    "imageUrl": "/images/alumni/Dipesh_Pandit.jpg",
+    "graduationYear": null,
+    "currentPosition": "Undergraduate Research Assistant"
+  },
+  {
+    "id": "101",
+    "name": "Dipesh ",
+    "description": "About Dipesh Pandit",
+    "imageUrl": "/images/alumni/Dipesh_Pandit.jpg",
+    "graduationYear": null,
+    "currentPosition": "Undergraduate Research Assistant"
+  },
+  {
+    "id": "102",
+    "name": "Dipes ",
+    "description": "About Dipesh Pandit",
+    "imageUrl": "/images/alumni/Dipesh_Pandit.jpg",
+    "graduationYear": null,
+    "currentPosition": "Undergraduate Research Assistant"
+  }
 ]
-       
-    

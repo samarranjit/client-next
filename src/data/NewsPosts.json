@@ -1,64 +1,88 @@
-[{
-  "_id":  "673246d58ca2ece6dd0d8b67",
-  "heading": " 2023 NASA SnowEx October campaign",
-  "body": [
-    "The 2023 NASA SnowEx October campaign took place in the tundra and boreal forest regions of Alaska from 19 - 29 October! It was such a collaborative campaign with amazing students, postdocs, local researchers, and colleagues. Thanks all!",
-    ""
-  ],
-  "mainImage": "https://echo-hydro.github.io/news/images/202210_snowex_cho.jpg",
-  "otherImage": [],
-  "date": "2023-10-30",
-  "__v": 0
-},
-{
-  "_id": "67ed9d031f076501e8dc1d11",
-  "heading": "ChoLab Team Members at TXST STEM Conference ",
-  "body": [
-    "​The TXST STEM Conference (3/28) was an excellent platform to showcase our research! We had the opportunity to present our work, engage with fellow researchers, and receive valuable feedback. Momin won the 2nd place for the best poster presentation! "
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1743625473/estxfrggdg2lckue7wzf.jpg",
-  "otherImage": [],
-  "date": "2025-03-28",
-  "__v": 0
-},
-{
-  "_id": "684465622f35f198ca52bbd0",
-  "heading": "UAV Training Workshop at Cho Lab: Exploring the Skies with Cutting-Edge Technology",
-  "body": [
-    "All members of the Cho Lab participated in an exciting two-day Unmanned Aerial Vehicle (UAV) Training Workshop, held at Texas State University and led with expert guidance from Frontier Precision. The training provided hands-on experience with state-of-the-art UAV systems and advanced sensors for remote sensing and geospatial data collection.",
-    "On the first day, Cho Lab members were introduced to UAV Assembly and Flight Operations.  Participants learned to assemble and pilot the Freefly Alta X, a powerful industrial drone designed for heavy-lift aerial imaging and mapping. Members also practiced using high-end sensors, including YellowScan Mapper+ LiDAR and Medusa Gamma Sensors.",
-    "On the second day, the focus shifted to data processing and analysis. Members worked through the full pipeline of processing sensor data collected during flights over the Texas State Meadow Center. This included cleaning and aligning raw sensor data, generating digital elevation models, and visualizing terrain and radiation intensity.  While the process was initially challenging, participants showed great progress and confidence by the end of the session. To conclude the training, Cho Lab members conducted their first solo UAV missions, flying over the Meadow Center, collecting new data, and applying their newly acquired skills independently.\n\n",
-    "In a meeting following the training, Dr. Eunsang Cho shared his enthusiasm and vision for the future, stating that he looks forward to more research projects that leverage the advanced capabilities of UAVs and sensors. The training has opened up new possibilities for innovative field-based research at Cho Lab.",
-    "This training would not have been possible without the generous support of Frontier Precision and their instructor, Austin, whose clarity and hands-on guidance were instrumental in making the event a success.\n\nThank you to everyone who participated—we look forward to applying these skills to future fieldwork and research initiatives!"
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1750116763/efjmhxsccrgjescmdlzx.jpg",
-  "otherImage": [
-    "https://res.cloudinary.com/cholab/image/upload/v1749313952/t4xmm8zsmbkkbywhsjss.jpg",
-    "https://res.cloudinary.com/cholab/image/upload/v1750116764/ngyffl03tdlfo1dilizd.jpg"
-  ],
-  "date": "2025-06-06",
-  "__v": 0
-},
-{
-  "_id": "685ad08bc68ee3ca00d42138",
-  "heading": "Cho Lab at the Eastern Snow Conference 2025: Some Reflections",
-  "body": [
-    "This year, three members of the Cho Lab had the opportunity to attend the **[Eastern Snow Conference (ESC)](https://www.easternsnow.org/)**—an annual gathering of snow scientists and researchers from across North America. For our lab members, Eastern Snow Conference was more than just a scientific meeting; it was a space to connect, present, and grow within a passionate and collaborative research community. Here are their reflections:-",
-    "---",
-    "\n ### Eunsaem Cho  : A Research Family in the Snow Science Community  \n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750904747/Screenshot_2025-06-25_212142_okfxu5.png)\n\n> ESC was excellent for building *Extremely Strong Connections* with snow researchers.\n\nEunsaem appreciated the intimate scale of the conference, which created a warm, family-like environment among attendees. This atmosphere allowed him to feel like a true part of the broader science research community.\n\nHis presentation was well-received and sparked several interesting questions. However, being scheduled last left limited time for deeper conversations and potential collaborations:\n> The conference felt too short—an extra day would have helped foster more meaningful discussions.\n\nOne standout memory was the early career happy hour, where casual networking over ice cream offered a fun break from formal sessions. He suggests future events could benefit from structured icebreakers to facilitate even stronger networking.\n\n**Advice for future attendees:**  \n“Study the shared slides and posters beforehand. And most importantly—ask questions and engage actively. That’s where the real value lies.\n #### Conference Slides: \n [![Conference Poster for ESC- Eunsaem Choji](https://res.cloudinary.com/cholab/image/upload/v1751004801/Slide1_deaksj.jpg)](/Files/Assets/ESC2025Slides/Eunsaem.pdf) \n",
-    "---",
-    "### Farhaan Cooverji: Fostering Community and Collaboration\n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750785388/Farhaan1_xkofzd.jpg)\n\n> What stood out most was how committed the senior members were to fostering a collaborative snow science community.\n\nFarhaan described ESC as a uniquely welcoming space, especially for early-career researchers.\n\nHe presented a poster that drew valuable engagement. A key lesson? Always carry a notepad:\n> It’s handy for capturing feedback and connections in the moment.\n\nA particularly memorable interaction came right at the start—Dr. Jacobs (Dr. Cho’s advisor) warmly offered to connect him with key members of the snow research community. He also recalled the conference banquet, where he shared a table with student researchers working on diverse snow projects across North America:\n> It was wonderful to share insights and connect personally.\n\n**Advice for future attendees:**  \nConsider presenting a poster—it encourages more direct engagement. And refine your presentation as the event progresses, learning from your early interactions.\n #### Conference Poster: \n [![Conference Poster for ESC- Farhaan Cooverji](https://res.cloudinary.com/cholab/image/upload/v1751008581/Farhaan_ESC_poster_48x30_yxewo0.png)](/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf)",
-    "---",
-    "\n ### Jipeng Liu: Finding a Home Among Snow Scientists\n\n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750903469/20250604_200902268_iOS_rzdurf.jpg)\n\n> In other settings, my snow research often felt novel or niche. But at ESC, I felt completely at home.\n\nFor Jipeng, ESC was a transformative experience.\n\nPresenting his poster led to a memorable moment—meeting researchers who had helped collect the very datasets he was working with. This made his work feel even more impactful and connected to the broader scientific effort.\n\nAnother highlight was reconnecting with the UNH group and meeting Dr. Jacobs:\n> Meeting my advisor’s advisor felt surreal. She was incredibly kind—and I could see the wisdom in her eyes. I also enjoyed connecting with other members of the UNH team, especially Adam and Jeremy, whom I hadn't seen in a long time.\n\n**Advice for future attendees:**  \nBe confident. Talk to people. Conferences like ESC offer a rare and rewarding chance to exchange ideas and build lasting academic relationships.\n #### Conference Poster: \n [![Conference Poster for ESC- Jipeng](https://res.cloudinary.com/cholab/image/upload/v1751010148/1_ESC_Jipeng_gsnj8g.png)](/Files/Assets/ESC2025Slides/1_ESC_Jipeng.pdf)",
-    "---",
-    "\n ### Looking Ahead\n\nFrom meaningful scientific exchanges to warm personal connections, the Eastern Snow Conference left a lasting impression on the Cho Lab attendees. As our research continues to grow, so too does our place in the broader snow science community. We look forward to more conferences, more conversations—and more snow."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1750786080/ulycjzzeltx6j9ugzkgs.png",
-  "otherImage": [
-    "https://res.cloudinary.com/cholab/image/upload/v1750786077/vgshjavnbgnyjluoep2g.png",
-    "https://res.cloudinary.com/cholab/image/upload/v1750785387/Eunsaem1_vavnm2.jpg",
-    "https://res.cloudinary.com/cholab/image/upload/v1750902270/GetAttachmentThumbnail_ognxrr.jpg"
-  ],
-  "date": "2025-06-18",
-  "__v": 0
-}]
+[
+  {
+    "_id": "673246d58ca2ece6dd0d8b67",
+    "heading": " 2023 NASA SnowEx October campaign",
+    "body": [
+      "The 2023 NASA SnowEx October campaign took place in the tundra and boreal forest regions of Alaska from 19 - 29 October! It was such a collaborative campaign with amazing students, postdocs, local researchers, and colleagues. Thanks all!",
+      ""
+    ],
+    "mainImage": "https://echo-hydro.github.io/news/images/202210_snowex_cho.jpg",
+    "otherImage": [],
+    "date": "2023-10-30",
+    "__v": 0
+  },
+  {
+    "_id": "67ed9d031f076501e8dc1d11",
+    "heading": "ChoLab Team Members at TXST STEM Conference ",
+    "body": [
+      "​The TXST STEM Conference (3/28) was an excellent platform to showcase our research! We had the opportunity to present our work, engage with fellow researchers, and receive valuable feedback. Momin won the 2nd place for the best poster presentation! "
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1743625473/estxfrggdg2lckue7wzf.jpg",
+    "otherImage": [],
+    "date": "2025-03-28",
+    "__v": 0
+  },
+  {
+    "_id": "684465622f35f198ca52bbd0",
+    "heading": "UAV Training Workshop at Cho Lab: Exploring the Skies with Cutting-Edge Technology",
+    "body": [
+      "All members of the Cho Lab participated in an exciting two-day Unmanned Aerial Vehicle (UAV) Training Workshop, held at Texas State University and led with expert guidance from Frontier Precision. The training provided hands-on experience with state-of-the-art UAV systems and advanced sensors for remote sensing and geospatial data collection.",
+      "On the first day, Cho Lab members were introduced to UAV Assembly and Flight Operations.  Participants learned to assemble and pilot the Freefly Alta X, a powerful industrial drone designed for heavy-lift aerial imaging and mapping. Members also practiced using high-end sensors, including YellowScan Mapper+ LiDAR and Medusa Gamma Sensors.",
+      "On the second day, the focus shifted to data processing and analysis. Members worked through the full pipeline of processing sensor data collected during flights over the Texas State Meadow Center. This included cleaning and aligning raw sensor data, generating digital elevation models, and visualizing terrain and radiation intensity.  While the process was initially challenging, participants showed great progress and confidence by the end of the session. To conclude the training, Cho Lab members conducted their first solo UAV missions, flying over the Meadow Center, collecting new data, and applying their newly acquired skills independently.\n\n",
+      "In a meeting following the training, Dr. Eunsang Cho shared his enthusiasm and vision for the future, stating that he looks forward to more research projects that leverage the advanced capabilities of UAVs and sensors. The training has opened up new possibilities for innovative field-based research at Cho Lab.",
+      "This training would not have been possible without the generous support of Frontier Precision and their instructor, Austin, whose clarity and hands-on guidance were instrumental in making the event a success.\n\nThank you to everyone who participated—we look forward to applying these skills to future fieldwork and research initiatives!"
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1750116763/efjmhxsccrgjescmdlzx.jpg",
+    "otherImage": [
+      "https://res.cloudinary.com/cholab/image/upload/v1749313952/t4xmm8zsmbkkbywhsjss.jpg",
+      "https://res.cloudinary.com/cholab/image/upload/v1750116764/ngyffl03tdlfo1dilizd.jpg"
+    ],
+    "date": "2025-06-06",
+    "__v": 0
+  },
+  {
+    "_id": "685ad08bc68ee3ca00d42138",
+    "heading": "Cho Lab at the Eastern Snow Conference 2025: Some Reflections",
+    "body": [
+      "This year, three members of the Cho Lab had the opportunity to attend the **[Eastern Snow Conference (ESC)](https://www.easternsnow.org/)**—an annual gathering of snow scientists and researchers from across North America. For our lab members, Eastern Snow Conference was more than just a scientific meeting; it was a space to connect, present, and grow within a passionate and collaborative research community. Here are their reflections:-",
+      "---",
+      "\n ### Eunsaem Cho  : A Research Family in the Snow Science Community  \n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750904747/Screenshot_2025-06-25_212142_okfxu5.png)\n\n> ESC was excellent for building *Extremely Strong Connections* with snow researchers.\n\nEunsaem appreciated the intimate scale of the conference, which created a warm, family-like environment among attendees. This atmosphere allowed him to feel like a true part of the broader science research community.\n\nHis presentation was well-received and sparked several interesting questions. However, being scheduled last left limited time for deeper conversations and potential collaborations:\n> The conference felt too short—an extra day would have helped foster more meaningful discussions.\n\nOne standout memory was the early career happy hour, where casual networking over ice cream offered a fun break from formal sessions. He suggests future events could benefit from structured icebreakers to facilitate even stronger networking.\n\n**Advice for future attendees:**  \n“Study the shared slides and posters beforehand. And most importantly—ask questions and engage actively. That’s where the real value lies.\n #### Conference Slides: \n [![Conference Poster for ESC- Eunsaem Choji](https://res.cloudinary.com/cholab/image/upload/v1751004801/Slide1_deaksj.jpg)](/Files/Assets/ESC2025Slides/Eunsaem.pdf) \n",
+      "---",
+      "### Farhaan Cooverji: Fostering Community and Collaboration\n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750785388/Farhaan1_xkofzd.jpg)\n\n> What stood out most was how committed the senior members were to fostering a collaborative snow science community.\n\nFarhaan described ESC as a uniquely welcoming space, especially for early-career researchers.\n\nHe presented a poster that drew valuable engagement. A key lesson? Always carry a notepad:\n> It’s handy for capturing feedback and connections in the moment.\n\nA particularly memorable interaction came right at the start—Dr. Jacobs (Dr. Cho’s advisor) warmly offered to connect him with key members of the snow research community. He also recalled the conference banquet, where he shared a table with student researchers working on diverse snow projects across North America:\n> It was wonderful to share insights and connect personally.\n\n**Advice for future attendees:**  \nConsider presenting a poster—it encourages more direct engagement. And refine your presentation as the event progresses, learning from your early interactions.\n #### Conference Poster: \n [![Conference Poster for ESC- Farhaan Cooverji](https://res.cloudinary.com/cholab/image/upload/v1751008581/Farhaan_ESC_poster_48x30_yxewo0.png)](/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf)",
+      "---",
+      "\n ### Jipeng Liu: Finding a Home Among Snow Scientists\n\n\n![Alt text](https://res.cloudinary.com/cholab/image/upload/v1750903469/20250604_200902268_iOS_rzdurf.jpg)\n\n> In other settings, my snow research often felt novel or niche. But at ESC, I felt completely at home.\n\nFor Jipeng, ESC was a transformative experience.\n\nPresenting his poster led to a memorable moment—meeting researchers who had helped collect the very datasets he was working with. This made his work feel even more impactful and connected to the broader scientific effort.\n\nAnother highlight was reconnecting with the UNH group and meeting Dr. Jacobs:\n> Meeting my advisor’s advisor felt surreal. She was incredibly kind—and I could see the wisdom in her eyes. I also enjoyed connecting with other members of the UNH team, especially Adam and Jeremy, whom I hadn't seen in a long time.\n\n**Advice for future attendees:**  \nBe confident. Talk to people. Conferences like ESC offer a rare and rewarding chance to exchange ideas and build lasting academic relationships.\n #### Conference Poster: \n [![Conference Poster for ESC- Jipeng](https://res.cloudinary.com/cholab/image/upload/v1751010148/1_ESC_Jipeng_gsnj8g.png)](/Files/Assets/ESC2025Slides/1_ESC_Jipeng.pdf)",
+      "---",
+      "\n ### Looking Ahead\n\nFrom meaningful scientific exchanges to warm personal connections, the Eastern Snow Conference left a lasting impression on the Cho Lab attendees. As our research continues to grow, so too does our place in the broader snow science community. We look forward to more conferences, more conversations—and more snow."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1750786080/ulycjzzeltx6j9ugzkgs.png",
+    "otherImage": [
+      "https://res.cloudinary.com/cholab/image/upload/v1750786077/vgshjavnbgnyjluoep2g.png",
+      "https://res.cloudinary.com/cholab/image/upload/v1750785387/Eunsaem1_vavnm2.jpg",
+      "https://res.cloudinary.com/cholab/image/upload/v1750902270/GetAttachmentThumbnail_ognxrr.jpg"
+    ],
+    "date": "2025-06-18",
+    "__v": 0
+  },
+  {
+    "_id": "68aa4f6f2632157eef3f538f",
+    "heading": "Cho Lab Prepares Students for the Future of Hydrology and Earth Science",
+    "body": [
+      "The **Cho Lab** participated in a two-week Summer Camp hosted from August 5 to August 15 by **Texas State University** in collaboration with the **U.S. Department of Energy**. The camp was designed to give high school students from **Akins Early College High School** hands-on exposure to scientific research and to inspire them to pursue careers in STEM fields. ",
+      "As part of this program, the Cho Lab delivered interactive sessions that introduced students to the fundamentals of geospatial data analysis and hydrological modeling. Under the guidance of Dr. Eunsang Cho, research team members Jipeng Liu and Himmat Basnet worked closely with participants to connect classroom concepts to real-world applications, giving them the opportunity to practice research methods typically reserved for university-level studies.",
+      "\nThe instructors at Cho Lab began with an introduction to major concepts in hydrology and climatology, providing students with the foundation to understand water systems and their connection to climate change. Building on this base, the sessions moved into practical training on hydrological modeling and the use of Google Earth Engine for geospatial analysis. In the final stage, the instructors brought everything together by guiding students through a comprehensive hydrological modeling exercise that used all the information learned to simulate potential flood events projected for 2040 to 2050 under both medium and severe climatic scenarios. This progression not only helped students connect theory with practice but also demonstrated the value of integrated modeling in preparing for climate-driven water management challenges.\n",
+      "",
+      "![Alt text](https://res.cloudinary.com/cholab/image/upload/v1755991330/DSCF0154_ey6uwa.jpg)\n\nThe camp was met with enthusiasm from students, who expressed excitement about the skills they gained and the chance to work with real scientific data. For many, it was their first time engaging in research at such a practical level, and the experience helped them see the possibilities of pursuing higher education and careers in environmental science, hydrology, and geospatial technology.",
+      "",
+      "\nThe Cho Lab extends sincere thanks to Texas State University, the Department of Energy, and Akins High School for making the Summer Camp possible, as well as to all students and mentors who contributed to its success. We look forward to participating in future programs that bring hands-on research opportunities to young scholars and continue building pathways into STEM fields."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1755991289/JMSJ_2015_b8o8to.jpg",
+    "otherImage": [
+      "https://res.cloudinary.com/cholab/image/upload/v1755991468/DSCF0133_fpfu2c.jpg",
+      "https://res.cloudinary.com/cholab/image/upload/v1755991474/DSCF0110_my0pf2.jpg",
+      "https://res.cloudinary.com/cholab/image/upload/v1755991480/DSCF0084_lnbrx8.jpg",
+      "https://res.cloudinary.com/cholab/image/upload/v1755991500/DSCF0058_aqhvp3.jpg"
+    ],
+    "date": "2025-08-19",
+    "__v": 0
+  }
+]

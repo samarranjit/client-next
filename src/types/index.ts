@@ -10,11 +10,20 @@ export interface Member {
   linkedin?: string;
   email?: string;
   isActive: boolean;
+
 }
 export interface Contribution {
   desc?: string;
   link?: string;
 }
+
+export interface MemberPublication{
+    authors?: string[],
+    title?: string,
+    link?: string,
+    journal?: string,
+    date?: string
+  }
 
 export interface TeamMember {
   id: string;
@@ -26,6 +35,8 @@ export interface TeamMember {
   email?: string;
   order: number;
   contributions: Contribution[]; // always an array, can be empty
+  about?: string;
+  publications?: MemberPublication[]
 }
 
 export interface AlumniMember{

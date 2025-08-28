@@ -1,107 +1,195 @@
-[{
-  "id":  "67376f1a1955b4dd5315c4a1",
-  "name": "Annelise Holguin",
-  "position": "Graduate student (M.S.)",
-  "desc": "Crop Yield Predictions using ML and remote sensing",
-  "email": "annelise.holguin@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
-  "img": "/images/team/AnneliseHolguin.png",
-  "order": 2,
-  "contributions" : []
-},
-{
-  "id":  "673b77176cfbde29aec24ffb",
-  "name": "Farhaan Cooverji",
-  "position": "Graduate student (M.S.)",
-  "desc": "Regional Water Balance Analysis for Quantifying Snow Water Supply in Snow-Dominant Watersheds.",
-  "email": "uhw2@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
-  "img": "/images/team/FarhaanCooverji.png",
-  "order": 3,
-  "contributions" : [
-    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
-     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
-  ]
-},
-{
-  "id":  "6741c5593202e8307dff9f84",
-  "name": "Jipeng Liu",
-  "position": "Graduate student (M.S.)",
-  "desc": "UAV remote sensing of snow and soil moisture detections.",
-  "email": "ibo20@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
-  "img": "/images/team/JipengLiu.png",
-  "order": 4,
-   "contributions" : [
-    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
-     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
-  ]
-},
-{
-  "id":  "676052dedbdbbed77acf55b7",
-  "name": "Himmat Basnet",
-  "position": "Graduate student (M.S.)",
-  "desc": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
-  "email": "gyc22@txstate.edu",
-  "linkedin": "",
-  "img": "/images/team/HimmatBasnet.png",
-  "order": 5,
-  "contributions" : []
-},
-{
-  "id": "676053ccdbdbbed77acf55b9",
-  "name": "Md Shah Mominul Islam Momin",
-  "position": "Graduate student (M.S.)",
-  "desc": "Impact of Coastal Flooding on Transportation Systems and Social Equity",
-  "email": "shah_mominul_islam@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/md-shah-mominul-islam-1104010/",
-  "img": "/images/team/Moomin.png",
-  "order": 6,
-  "contributions" : []
-},
-{
-  "id": "67605a9fdbdbbed77acf5606",
-  "name": "Eunsaem Cho",
-  "position": "Postdoctoral Scientist (affiliated with NASA GSFC/UMD)",
-  "desc": "Snowmelt-Groundwater Interactions for Improved Flood Prediction Using Land Surface Modeling and Data Assimilation",
-  "email": "saemrnt@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/saemrnt/",
-  "img": "/images/team/EunsaemCho.png",
-  "order": 1,
-   "contributions" : [
-    {"desc" : "Attended and Presented at the Eastern Snow Conference 2025",
-     "link" : "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"}
-  ]
-},
-{
-  "id": "67605945dbdbbed77acf55ec",
-  "name": "Samar Ranjit",
-  "position": "Undergraduate Research Assistant",
-  "desc": "Undergraduate researcher passionate about geospatial data analysis and web development.\nContributing to crop yield stability studies at the Cho Lab.",
-  "email": "owr15@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/samarranjit/",
-  "img": "/images/team/SamarRanjit.png",
-  "order": 8,
-  "contributions" : []
-},
-{
-  "_id":  "687283c539fe8fb737d3a5e8",
-  "name": "Hrishant Sharma",
-  "position": "Undergraduate Research Assistant",
-  "desc": "River Flow prediction using LSTM deep learning models , with a strong interest in data science.",
-  "email": "pfj19@txstate.edu",
-  "linkedin": "https://www.linkedin.com/in/hrishant-sh/",
-  "img": "/images/team/HrishantSharma.png",
-  "order": 9
-},
-{
-  "_id": "6872846b39fe8fb737d3a5ea",
-  "name": "Samrakshyan Adhikari",
-  "position": "Undergraduate Research Assistant",
-  "desc": "Exploring wildfire susceptibility mapping using seasonal environmental data and deep learning (CNN).",
-  "email": "nbb38@txstate.edu",
-  "linkedin": " https://www.linkedin.com/in/samrakshyan-adhikari-625473269/",
-  "img": "/images/team/SamrakshyanAdhikari.png",
-  "order": 10
-}
+[
+  {
+    "id": "67605a9fdbdbbed77acf5606",
+    "name": "Eunsaem Cho",
+    "position": "Postdoctoral Scientist",
+    "desc": "Snowmelt-Groundwater Interactions for Improved Flood Prediction Using Land Surface Modeling and Data Assimilation",
+    "email": "saemrnt@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/saemrnt/",
+    "img": "/images/team/EunsaemCho.png",
+    "order": 1,
+    "contributions": [
+      {
+        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
+        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+      }
+    ],
+    "publications": [
+      {
+        "authors": [
+          "Cho E.",
+          "John Doe"
+        ],
+        "title": "Improved Flood Prediction Using Land Surface Modeling",
+        "link": "https://example.com/publication1",
+        "journal": "Journal of Hydrology",
+        "date": "2025-01-01"
+      }
+    ]
+  },
+  {
+    "_id": "68ae7e1dcb630c29e1ab71c7",
+    "name": "Harisankar Manoj",
+    "position": "Ph.D. Student",
+    "desc": "Investigating land–climate interactions using remote sensing of snow and floods",
+    "email": "harimanoj@txstate.edu",
+    "linkedin": "",
+    "img": "/images/team/Harisankar.jpg",
+    "order": 2,
+    "__v": 0,
+    "about": "Harisankar’s research interests include the climate implications associated with land surface processes, the use of remote sensing for snow estimation, and snowmelt-driven floods. He worked as a GIS analyst at Apple via Artech Information Systems LLC, where he improved the Apple Maps Product Automation through geospatial data analysis and quality control – quality assurance. Prior to his industrial experience, Harisankar completed his master's degree in geological sciences from the University of Texas at Austin, where he investigated whether climate alterations are more or less able to support the sustenance of Congo rainforests. He earned his integrated master’s degree in applied geology from Pondicherry University, India, where he studied the lithological control on weathering and gained experience in geological fieldwork, as well as geochemical analysis of soil, sediment, and rock specimens. Besides his career interests, Harisankar is an avid music listener; he enjoys playing the violin, photography, and exploring nature.",
+    "publications": []
+  },
+  {
+    "_id": "68ae8184cb630c29e1ab71c9",
+    "name": "Kathleen Shank",
+    "position": "Ph.D. Student",
+    "desc": "Integrating climate and hydrologic models to estimate future changes in PFAS contaminant behavior",
+    "email": "nat98@txstate.edu",
+    "linkedin": "https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.linkedin.com%2Fin%2Fkathleen-i-shank-79a850164&data=05%7C02%7Csamarranjit%40txstate.edu%7C09076d61a65b4154e53f08dde4d8f326%7Cb19c134a14c94d4caf65c420f94c8cbb%7C0%7C0%7C638918342681691144%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=nzYIBmJDiW14sx7nT64AJSr9J1keiTuUQLvnphGhGIY%3D&reserved=0",
+    "img": "/images/team/Kathleen_Headshot.png",
+    "order": 3,
+    "about": "Kathleen’s research focuses on the intersection of climate and hydrology as climate stressors influence water quality and contaminant behavior (i.e., PFAS). She hopes to tailor her research based on her previous experience in sea level rise, coastal forest ecology, and water quality. Kathleen is passionate about the environment and climate adaptation in communities with lower adaptive capacity to climate change. She hopes her research can help communities better prepare for future climate stressors and increase awareness of the public health impacts of climate change. Prior to graduate school, Kathleen worked at the U.S. Environmental Protection Agency’s Office of Research and Development, where she researched coastal wetland inundation with future sea level rise in the U.S. and its island territories, focusing on mangrove forests and saltwater marshes. Kathleen completed her undergraduate degree from Penn State University in Earth Science and Policy, concentrating her studies in climate change. When she is not deep in her research, Kathleen enjoys hiking, painting, and live music.",
+    "publications": []
+  },
+  {
+    "id": "67376f1a1955b4dd5315c4a1",
+    "name": "Annelise Holguin",
+    "position": "Graduate student (M.S.)",
+    "desc": "Crop Yield Predictions using ML and remote sensing",
+    "email": "annelise.holguin@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
+    "img": "/images/team/AnneliseHolguin.png",
+    "order": 4,
+    "contributions": [
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "id": "673b77176cfbde29aec24ffb",
+    "name": "Farhaan Cooverji",
+    "position": "Graduate student (M.S.)",
+    "desc": "Regional Water Balance Analysis for Quantifying Snow Water Supply in Snow-Dominant Watersheds.",
+    "email": "uhw2@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
+    "img": "/images/team/FarhaanCooverji.png",
+    "order": 5,
+    "contributions": [
+      {
+        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
+        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+      },
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "id": "6741c5593202e8307dff9f84",
+    "name": "Jipeng Liu",
+    "position": "Graduate student (M.S.)",
+    "desc": "UAV remote sensing of snow and soil moisture detections.",
+    "email": "ibo20@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
+    "img": "/images/team/JipengLiu.png",
+    "order": 6,
+    "contributions": [
+      {
+        "desc": "Contributed to DOE Funded Summer Camp 2025",
+        "link": "/news/68aa4f6f2632157eef3f538f"
+      },
+      {
+        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
+        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+      },
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "id": "676052dedbdbbed77acf55b7",
+    "name": "Himmat Basnet",
+    "position": "Graduate student (M.S.)",
+    "desc": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
+    "email": "gyc22@txstate.edu",
+    "linkedin": "",
+    "img": "/images/team/HimmatBasnet.png",
+    "order": 7,
+    "contributions": [
+      {
+        "desc": "Contributed to DOE Funded Summer Camp 2025",
+        "link": "/news/68aa4f6f2632157eef3f538f"
+      },
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "id": "676053ccdbdbbed77acf55b9",
+    "name": "Md Shah Mominul Islam Momin",
+    "position": "Graduate student (M.S.)",
+    "desc": "Impact of Coastal Flooding on Transportation Systems and Social Equity",
+    "email": "shah_mominul_islam@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/md-shah-mominul-islam-1104010/",
+    "img": "/images/team/Moomin.png",
+    "order": 8,
+    "contributions": [
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "id": "67605945dbdbbed77acf55ec",
+    "name": "Samar Ranjit",
+    "position": "Undeergraduate Student",
+    "desc": "Undergraduate researcher passionate about geospatial data analysis and web development.\nContributing to crop yield stability studies at the Cho Lab.",
+    "email": "owr15@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/samarranjit/",
+    "img": "/images/team/SamarRanjit.png",
+    "order": 10,
+    "contributions": [
+      {
+        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "link": "/news/67ed9d031f076501e8dc1d11"
+      }
+    ],
+    "publications": []
+  },
+  {
+    "_id": "687283c539fe8fb737d3a5e8",
+    "name": "Hrishant Sharma",
+    "position": "Undeergraduate Student",
+    "desc": "River Flow prediction using LSTM deep learning models , with a strong interest in data science.",
+    "email": "pfj19@txstate.edu",
+    "linkedin": "https://www.linkedin.com/in/hrishant-sh/",
+    "img": "/images/team/HrishantSharma.png",
+    "order": 11,
+    "publications": []
+  },
+  {
+    "_id": "6872846b39fe8fb737d3a5ea",
+    "name": "Samrakshyan Adhikari",
+    "position": "Undeergraduate Student",
+    "desc": "Exploring wildfire susceptibility mapping using seasonal environmental data and deep learning (CNN).",
+    "email": "nbb38@txstate.edu",
+    "linkedin": " https://www.linkedin.com/in/samrakshyan-adhikari-625473269/",
+    "img": "/images/team/SamrakshyanAdhikari.png",
+    "order": 12,
+    "publications": []
+  }
 ]
