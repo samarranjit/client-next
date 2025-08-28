@@ -50,6 +50,7 @@ function OtherMember() {
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
+        maskClosable
         width="90vw"
         style={{ maxWidth: "900px" }}
         footer={null}
