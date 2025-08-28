@@ -26,14 +26,14 @@ export default function MemberCard({
   setIsModalOpen,
 }: MemberCardProps) {
   return (
-    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[520px] md:h-[580px]">
+    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[520px] md:h-[520px]">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
 
-      <div className="relative p-6 md:p-8 flex flex-col items-center text-center h-full justify-between">
+      <div className="relative p-4 md:p-8 flex flex-col items-center text-center h-full justify-between">
         {/* Profile Image with improved styling */}
         <div className="relative mb-6">
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-xl group-hover:scale-105 transition-transform duration-300">
+          <div className="w-32 h-32 md:w-40 md:h-40  rounded-full overflow-hidden border-4 border-white/20 shadow-xl group-hover:scale-105 transition-transform duration-300">
             <Image
               src={img}
               alt={name}
