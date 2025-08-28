@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Lora } from "next/font/google";
+export const dynamic = "force-dynamic";
 
 const lora = Lora({
   subsets: ["latin"],
