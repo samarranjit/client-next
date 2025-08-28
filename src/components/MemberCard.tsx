@@ -84,10 +84,9 @@ export default function MemberCard({
             )}
 
             {/* View Details Button */}
-            <Button
+            <button
               onClick={() => setIsModalOpen(true)}
               className="flex-1 bg-white/15 border-white/25 text-white hover:bg-white/25 hover:border-white/40 hover:shadow-lg transition-all duration-300 font-semibold px-4 py-2 h-auto rounded-lg backdrop-blur-sm group-hover:bg-tertiary/20 group-hover:border-tertiary/40"
-              size="middle"
             >
               <span className="flex items-center justify-center gap-2 text-sm">
                 View Details
@@ -105,7 +104,7 @@ export default function MemberCard({
                   />
                 </svg>
               </span>
-            </Button>
+            </button>
 
             {/* LinkedIn Button */}
             {linkedin && (
