@@ -3,7 +3,6 @@ import React from "react";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import { Button } from "antd";
 import Image from "next/image";
 
 interface MemberCardProps {
