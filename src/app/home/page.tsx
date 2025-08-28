@@ -8,6 +8,7 @@ import News from "./News";
 import Footer from "../../components/Footer";
 import EachSectionConnection from "./EachSectionConnection";
 import LinkedinPosts from "./LinkedinPosts";
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   return (
