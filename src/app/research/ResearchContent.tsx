@@ -13,7 +13,7 @@ import Image from "next/image";
 
 function Research() {
   // const { showLoading }: AppContextType = useContext(allContexts);
-  const bgImg = `/StaticImages/HomeBgImg.jpg`;
+  // const bgImg = `/StaticImages/HomeBgImg.jpg`;
   // const { researchData }: { researchData: ResearchCardData[] } =    useResearchContext();
   const { ResearchPosts: researchData, isLoading, _error } = useResearchPosts();
   console.log("Error:", _error ?? "No error");
