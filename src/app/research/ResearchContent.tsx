@@ -37,7 +37,7 @@ function Research() {
                   loading="lazy"
                   width={1920}
                   height={774}
-                  className="flex-shrink-0 w-[100%] object-cover object-center"
+                  className="flex-shrink-0 w-[100%] h-[100%] object-cover object-center"
                   style={{
                     pointerEvents: "none",
                     userSelect: "none",
@@ -49,7 +49,7 @@ function Research() {
                   loading="lazy"
                   width={1920}
                   height={774}
-                  className="flex-shrink-0 w-[100%] object-cover object-center"
+                  className="flex-shrink-0 w-[100%] h-[100%] object-cover object-center"
                   style={{
                     pointerEvents: "none",
                     userSelect: "none",
@@ -61,7 +61,7 @@ function Research() {
                   loading="lazy"
                   width={1920}
                   height={774}
-                  className="flex-shrink-0 w-[100%]  object-cover object-center"
+                  className="flex-shrink-0 w-[100%] h-[100%]  object-cover object-center"
                   style={{
                     pointerEvents: "none",
                     userSelect: "none",
