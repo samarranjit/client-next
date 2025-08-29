@@ -9,11 +9,11 @@ import ResearchCard from "./ResearchCard";
 import { FaSatelliteDish } from "react-icons/fa";
 import { ResearchCardData } from "@/types";
 import { useResearchPosts } from "@/hooks/useResearchesPosts";
+import Image from "next/image";
 
 function Research() {
   // const { showLoading }: AppContextType = useContext(allContexts);
-  const bgImg =
-    "https://res.cloudinary.com/cholab/image/upload/v1736473392/BGRESEARCH_gdpudo.jpg";
+  const bgImg = `/StaticImages/HomeBgImg.jpg`;
   // const { researchData }: { researchData: ResearchCardData[] } =    useResearchContext();
   const { ResearchPosts: researchData, isLoading, _error } = useResearchPosts();
   console.log("Error:", _error ?? "No error");
@@ -24,11 +24,77 @@ function Research() {
         {isLoading ? (
           <Loader />
         ) : (
-          <div
-            style={{ backgroundImage: `url(${bgImg})` }}
-            className="h-[100vh] md:h-[90vh] overflow-hidden bg-scroll md:bg-fixed bg-cover bg-center md:bg-top pt-[65px] md:pt-0"
-          >
-            <div className="w-[100%] h-[100%] bg-opacity-15 flex items-center justify-center p-2 md:justify-left md:ml-[15%] md:p-0">
+          // <div
+          //   style={{ backgroundImage: `url(${bgImg})` }}
+          //   className="h-[100vh] md:h-[90vh] overflow-hidden bg-scroll md:bg-fixed bg-cover bg-center md:bg-top pt-[65px] md:pt-0"
+          // >
+          <div className="h-[60vh] lg:h-[90vh] lg:bg-fixed bg-cover bg-no-repeat bg-center md:bg-right lg:bg-right-bottom bg-scroll relative overflow-hidden">
+            <div
+              className=""
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "200vw",
+                height: "100%",
+                display: "flex",
+                animation: "slideAcrossRepeat 120s linear infinite",
+                zIndex: -1,
+              }}
+            >
+              <Image
+                src="/StaticImages/MapOfWorld2.png"
+                alt="Background"
+                loading="lazy"
+                width={1920}
+                height={774}
+                style={{
+                  width: "auto",
+                  height: "auto",
+                  objectFit: "cover",
+                  pointerEvents: "none",
+                  userSelect: "none",
+                }}
+              />
+              <Image
+                src="/StaticImages/MapOfWorld2.png"
+                alt="Background"
+                loading="lazy"
+                width={1920}
+                height={774}
+                style={{
+                  width: "auto",
+                  height: "auto",
+                  objectFit: "cover",
+                  pointerEvents: "none",
+                  userSelect: "none",
+                }}
+              />
+              <Image
+                src="/StaticImages/MapOfWorld2.png"
+                alt="Background"
+                loading="lazy"
+                width={1920}
+                height={774}
+                style={{
+                  width: "auto",
+                  height: "auto",
+                  objectFit: "cover",
+                  pointerEvents: "none",
+                  userSelect: "none",
+                }}
+              />
+            </div>
+            <style jsx>{`
+              @keyframes slideAcrossRepeat {
+                0% {
+                  transform: translateX(-100vw);
+                }
+                100% {
+                  transform: translateX(0vw);
+                }
+              }
+            `}</style>
+            <div className="w-[100%] h-[100%] bg-opacity-15 flex items-center justify-center p-2 md:justify-left md:ml-[15%] md:p-0 relative z-10">
               <div className="intro-text w-[90%] md:w-[70%] lg:w-[40%] p-4 md:p-10 gap-2 md:gap-7 flex flex-col items-center justify-around bg-secondary/65 py-4 md:py-auto">
                 <p className="text-lg md:text-2xl text-tertiary text-left w-full font-semibold align-left justify-left">
                   Our Research
@@ -53,7 +119,7 @@ function Research() {
         )}
       </div>
 
-      <div className="themes bg-secondary h-full p-8 pb-10">
+      <div className="relative themes bg-secondary h-full p-8 pb-10">
         <div className="title text-center text-tertiary font-semibold text-3xl my-5 mb-0">
           Themes in Our Work
         </div>
