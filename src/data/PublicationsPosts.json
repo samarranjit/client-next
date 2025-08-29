@@ -4,10 +4,21 @@
     "title": "Spatial Disparities in Fire Shelter Accessibility: Capacity Challenges in the Palisades and Eaton Fires",
     "details": "Su Yeon Han, Yubin Lee, Jooyoung Yoo, Jeon-Young Kang, Jinwoo Park, Soe W. Myint, *Eunsang Cho*, Xin Gu, Joon-Seok Kim | ",
     "link": "https://arxiv.org/abs/2506.06803",
-    "imgUrl": "https://avatars.githubusercontent.com/u/45442578?s=280&v=4",
+    "imgUrl": "/images/publications/arxiv.png",
     "status": "Review",
     "date": "2025-06-07",
     "doi": "10.48550/arXiv.2506.06803",
+    "__v": 0
+  },
+  {
+    "_id": "6741c3c23202e8307dff9f644445",
+    "title": "Characterizing Spatial Structures of Field-Scale Snowpack using Unpiloted Aerial System (UAS) Lidar and SfM Photogrammetry ",
+    "details": "*Eunsang Cho*, Megan Verfaillie, Jennifer M. Jacobs, Adam G. Hunsaker, Franklin B. Sullivan, Michael Palace, Cameron Wagner  ",
+    "link": "https://arxiv.org/abs/2506.06803v1",
+    "imgUrl": "/images/publications/EguSphere.webp",
+    "status": "Review",
+    "date": "2024-06-21",
+    "doi": "10.5194/egusphere-2024-1530",
     "__v": 0
   },
   {
