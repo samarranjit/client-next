@@ -25,12 +25,12 @@ function NewsCard({ prop }: NewsCardProps) {
   return (
     <>
       <div className="bg-primary/10 shadow-md shadow-gray-400 justify-center items-center rounded-[12px] relative md:min-h-[500px] md:max-h-[800px] border-t-9 border-tertiary/75 hover:border-secondary/75 transition duration-250 ease-in-out">
-        <div className="w-[100%] overflow-hidden rounded-t-[12px] h-[300px] bg-center ">
+        <div className="w-[100%] overflow-hidden rounded-t-[12px] h-[300px] bg-center flex justify-center items-center  align-center">
           <img
             src={mainImage}
             alt={heading}
             loading="lazy"
-            className="w-full h-full object-cover rounded-t-[12px] "
+            className="w-full h-full object-cover  rounded-t-[12px] align-center justify-center items-center "
             style={{ display: "block" }}
             width={1920}
             height={1080}

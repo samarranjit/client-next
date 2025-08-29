@@ -18,7 +18,7 @@ function News() {
   return (
     <div className="p-7 my-2 md:p-[65px] md:my-0 flex flex-col max-w-[1904px] mx-auto">
       <p className="text-tertiary text-xl md:text-2xl ">Latest from the Lab:</p>
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 width-[100%] justify-evenly p-5">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-20 width-[100%] justify-evenly py-5 px-1">
         {sortedNews?.slice(0, 3).map((item: NewsItem) => {
           return <NewsCard key={item._id} prop={item} />;
         })}
