@@ -18,11 +18,11 @@ function Research() {
   return (
     <div>
       <Navbar />
-      <div className="h-[100vh] lg:h-[90vh]">
+      <div className="h-[90vh] lg:h-[90vh]">
         {isLoading ? (
           <Loader />
         ) : (
-          <div className="h-[100vh] lg:h-[90vh] relative overflow-hidden">
+          <div className="h-[90vh] lg:h-[90vh] relative overflow-hidden">
             {/* Animated Background - Responsive */}
             <div className="absolute inset-0 z-[-1]">
               <div
