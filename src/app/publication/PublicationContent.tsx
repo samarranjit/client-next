@@ -265,11 +265,11 @@ function Publication() {
                         key={year}
                         className={
                           yearIndex > 0
-                            ? "border-t border-gray-100 pt-12 hidden md:inline"
+                            ? "border-t border-gray-100 pt-20 hidden md:inline"
                             : ""
                         }
                       >
-                        <div className="flex items-center gap-4 mb-6">
+                        <div className="flex items-center gap-4 mb-6 mt-5">
                           <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-tertiary/80 to-tertiary rounded-xl  items-center justify-center hidden md:flex">
                             <span className="text-white font-bold">{year}</span>
                           </div>
