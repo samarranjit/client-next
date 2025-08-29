@@ -82,11 +82,8 @@ const CurrentCourses = () => {
             natural environment and human society against weather and climate
             extreme disasters.
           </p>
-          <Link href="#" aria-disabled="true">
-            <button
-              className="border-2 border-tertiary my-2 rounded-full py-5 px-7 font-semibold cursor-pointer text-tertiary hover:text-primary hover:bg-tertiary duration-300 border-b-4"
-              disabled
-            >
+          <Link href="/Files/CoursesSyllabus/CE7372.pdf" aria-disabled="true">
+            <button className="border-2 border-tertiary my-2 rounded-full py-5 px-7 font-semibold cursor-pointer text-tertiary hover:text-primary hover:bg-tertiary duration-300 border-b-4">
               View Syllabus
             </button>
           </Link>
