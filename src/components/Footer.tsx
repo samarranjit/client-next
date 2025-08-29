@@ -8,138 +8,190 @@ import { IoMail } from "react-icons/io5";
 
 function Footer() {
   return (
-    <div className="relative mt-2 pt-[5rem]">
-      <div className="py-5 bg-secondary text-primary flex flex-col justify-left relative items-center text-center p-0 md:text-left border-secondary md:p-1 pb-[5px]">
-        <div className="custom-shape-divider-top-1730592413">
-          <svg
-            className="z-[100]"
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              className="shape-fill"
-            ></path>
-          </svg>
-        </div>
+    <div className="relative mt-16">
+      {/* Simple Divider */}
+      <div className="absolute top-[-55px] left-0 w-full overflow-hidden leading-[0] rotate-180">
+        <svg
+          className="relative block w-full h-[60px] md:h-[80px]"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            fill="#005b96"
+          />
+        </svg>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between p-1 pt-5 w-full md:py-10 md:w-[90%] border-secondary">
-          <div className="Cho flex justify-center m-auto items-center w-[90%] md:w-[100%]">
-            <div className="ml-0 md:ml-10 w-[70%] md:w-[80%] lg:w-[70%] p-[0.75rem] md:p-[1.5rem] aspect-square overflow-hidden h-full md:h-auto bg-white rounded-full flex justify-center items-center shadow-lg">
-              <Image
-                className="bg-white w-full h-full object-contain flex items-center justify-center"
-                src="/ChoLabLogo.png"
-                alt="Cho Lab Logo"
-                width={200}
-                height={200}
-              />
+      {/* Footer Content */}
+      <div className="bg-secondary text-primary pt-16 pb-8 flex justify-center align-center items-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Main Footer Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
+            {/* Lab Identity Section */}
+            <div className="text-center md:text-left space-y-6">
+              <div className="flex justify-center md:justify-start mb-6">
+                <div className="w-25 h-25 md:w-30 md:h-30 bg-white rounded-full p-3 shadow-lg">
+                  <Image
+                    className="w-full h-full object-contain"
+                    src="/ChoLabLogo.png"
+                    alt="Cho Lab Logo"
+                    width={150}
+                    height={150}
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-3">
+                <h3 className="text-2xl md:text-3xl font-bold text-tertiary">
+                  Cho Lab
+                </h3>
+                <p className="text-base text-primary/80 font-light">
+                  "{" "}
+                  <em>
+                    Illuminating Our Community and Earth: Advancing Hydrology
+                    and Water Systems in a Changing Climate{" "}
+                  </em>
+                  "
+                </p>
+                <div className="w-16 h-0.5 bg-tertiary mx-auto md:mx-0"></div>
+              </div>
+
+              {/* Social Links */}
+              <div className="flex justify-center md:justify-start space-x-4 pt-4">
+                <a
+                  href="https://github.com/echo-hydro"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
+                >
+                  <FaGithub className="text-2xl text-primary hover:text-tertiary transition-colors duration-200" />
+                </a>
+                <a
+                  href="https://x.com/Eunsang_UNH"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
+                >
+                  <FaTwitter className="text-2xl text-primary hover:text-tertiary transition-colors duration-200" />
+                </a>
+                <a
+                  href="mailto:eunsang.cho@txstate.edu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
+                >
+                  <IoMail className="text-2xl text-primary hover:text-tertiary transition-colors duration-200" />
+                </a>
+              </div>
+            </div>
+
+            {/* Contact Information */}
+            <div className="text-center md:text-left space-y-6">
+              <div>
+                <h4 className="text-xl md:text-2xl font-semibold text-tertiary mb-4">
+                  Contact
+                </h4>
+                <div className="w-12 h-0.5 bg-tertiary mx-auto md:mx-0 mb-6"></div>
+              </div>
+
+              <div className="space-y-5">
+                <div>
+                  <p className="text-tertiary font-medium mb-3 text-sm uppercase tracking-wider">
+                    Mailing Address
+                  </p>
+                  <div className="space-y-1 text-primary/90 leading-relaxed">
+                    <p>Bruce and Ingram, Room 5311</p>
+                    <p>Texas State University</p>
+                    <p>San Marcos, Texas - 78666</p>
+                  </div>
+                </div>
+
+                <div>
+                  <p className="text-tertiary font-medium mb-3 text-sm uppercase tracking-wider">
+                    Email
+                  </p>
+                  <a
+                    href="mailto:eunsang.cho@txstate.edu"
+                    className="text-primary/90 hover:text-tertiary transition-colors duration-200 break-all"
+                  >
+                    eunsang.cho@txstate.edu
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            <div className="text-center md:text-left space-y-6 md:col-span-2 lg:col-span-1">
+              <div>
+                <h4 className="text-xl md:text-2xl font-semibold text-tertiary mb-4">
+                  Quick Links
+                </h4>
+                <div className="w-12 h-0.5 bg-tertiary mx-auto md:mx-0 mb-6"></div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 max-w-md mx-auto md:mx-0">
+                <Link
+                  href="/about"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  PEOPLE
+                </Link>
+
+                <Link
+                  href="/news"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  LATEST NEWS
+                </Link>
+
+                <Link
+                  href="/publication"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  PUBLICATIONS
+                </Link>
+
+                <Link
+                  href="/research"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  RESEARCH
+                </Link>
+
+                <Link
+                  href="/opportunities"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  OPPORTUNITIES
+                </Link>
+
+                <Link
+                  href="/mentorship"
+                  className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
+                >
+                  MENTORSHIP
+                </Link>
+              </div>
             </div>
           </div>
 
-          <div className="contact block flex-col text-3xl text-center text-tertiary font-semibold items-center justify-start col-span-1">
-            <p className="flex p-0 md:p-5 pb-2 mb-3 text-center md:text-left items-center md:items-start text-[2rem] md:text-3xl w-full my-5 justify-center md:justify-start">
-              {/* <section className="border-b-[2px] border-tertiary w-full inline text-center"> */}
-              Contact
-              {/* </section> */}
+          {/* Copyright Section */}
+          <div className="mt-5 md:mt-16 pt-5 border-t border-primary/20 text-center ">
+            <p className="text-primary/80 text-sm md:text-base">
+              Copyright © 2024 Cho Lab. All rights Reserved.
             </p>
 
-            <div className="address text-primary font-light text-center md:text-left md:space-y-5 ">
-              <p className="p-0 md:p-2 text-tertiary py-5 text-2xl md:text-2xl my-2">
-                Mailing Address:
-              </p>
-              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
-                Bruce and Ingram, Room 5311
-              </p>
-              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
-                Texas State University
-              </p>
-              <p className="p-0 md:p-2 text-xl md:text-xl py-2 md:py-0">
-                San Marcos, Texas - 78666
-              </p>
-            </div>
-
-            <div className="text-xl md:text-2xl md:text-left p-0 md:p-7 my-2 md:my-0 cursor-pointer">
-              eunsang.cho@txstate.edu
-            </div>
-
-            <div className="social flex w-[100%] md:w-[50%] my-7 text-left justify-around items-center">
-              <a
-                href="https://github.com/echo-hydro"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaGithub className="text-3xl md:text-5xl" />
-              </a>
-              <a
-                href="https://x.com/Eunsang_UNH"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaTwitter className="text-3xl md:text-5xl" />
-              </a>
-              <a
-                href="mailto:eunsang.cho@txstate.edu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <IoMail className="text-3xl md:text-5xl" />
-              </a>
-            </div>
+            <Link
+              href="https://samarranjit.com.np"
+              target="_blank"
+              className="inline-block text-primary/60 hover:text-tertiary transition-colors duration-200 text-xs md:text-sm"
+            >
+              Designed by Samar Ranjit
+            </Link>
           </div>
-
-          <div className="quick-links flex-col text-3xl text-center text-tertiary font-semibold flex items-center w-[100%] md:w-[100%] justify-center md:jusitfy-around col-span-1 md:col-span-2 lg:col-span-1">
-            <p className="block p-5 my-5 border-b-[2px] border-tertiary pb-2 mb-7 text-2xl md:text-3xl text-center justify-center items-center">
-              Quick Links
-            </p>
-
-            <div className="links text-lg md:text-xl grid grid-cols-2 md:grid-cols-3 gap-x-7 text-primary mx-auto text-center w-[100%] justify-center items-center col-span-2 md:col-span-2">
-              <Link
-                href="/about"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                PEOPLE
-              </Link>
-              <Link
-                href="/news"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                LATEST NEWS
-              </Link>
-              <Link
-                href="/publication"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                PUBLICATIONS
-              </Link>
-              <Link
-                href="/research"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                RESEARCH
-              </Link>
-              <Link
-                href="/opportunities"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                OPPORTUNITIES
-              </Link>
-              <Link
-                href="/mentorship"
-                className=" md:p-2 font-light my-2 hover:border-b-2 hover:border-tertiary transition duration-150"
-              >
-                MENTORSHIP
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="copyright border-t-2 text-sm md:text-xl pb-5 md:pb-0 w-[80%] md:w-full border-tertiary text-center p-3 mb-0 pt-5">
-          <p>Copyright &copy; 2024 Eunsang Cho. All rights Reserved.</p>
-          <Link href="https://samarranjit.com.np" target="_blank">
-            <p className="pt-5 text-sm">Designed by Samar Ranjit</p>
-          </Link>
         </div>
       </div>
     </div>
