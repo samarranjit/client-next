@@ -92,7 +92,7 @@ function Publication() {
 
         <div className="in-revision pt-8 m-2 p-2 md:mx-7 md:p-auto justify-center items-start flex-col text-center">
           <h2 className="w-full md:w-[15%] lg:w-[100%] text-xl md:text-2xl text-center mx-auto">
-            Under Review :
+            In Revision/ Preprint:
           </h2>
           <div className="border-b-[2px] border-b-secondary w-[50%] md:w-[15%] lg:w-[15%] mx-auto"></div>
           {isLoading ? (
