@@ -26,7 +26,7 @@ function Research() {
             {/* Animated Background - Responsive */}
             <div className="absolute inset-0 z-[-1]">
               <div
-                className="w-[300vw] h-full flex"
+                className="w-[300vw] h-[90vh] flex"
                 style={{
                   animation: "slideAcrossRepeat 120s linear infinite",
                 }}
