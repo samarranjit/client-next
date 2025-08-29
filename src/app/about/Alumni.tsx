@@ -41,12 +41,12 @@ export default function AlumniPage() {
           <>
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-[#005B96] mb-4 font-lora">
-                Our Distinguished Alumni
+                Our Distinguished Past Members
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto font-open">
-                Our alumni continue to excel in academia, industry, and research
-                institutions worldwide. Their achievements reflect the quality
-                of research and mentorship in our lab.
+                Our members continue to excel in academia, industry, and
+                research institutions worldwide. Their achievements reflect the
+                quality of research and mentorship in our lab.
               </p>
             </div>
 
