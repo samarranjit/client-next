@@ -264,9 +264,7 @@ function Publication() {
                       <div
                         key={year}
                         className={
-                          yearIndex > 0
-                            ? "border-t border-gray-100 pt-20 hidden md:inline"
-                            : ""
+                          yearIndex > 0 ? "border-t border-gray-100 pt-20 " : ""
                         }
                       >
                         <div className="flex items-center gap-4 mb-6 mt-5">
@@ -331,9 +329,11 @@ function Publication() {
                     <button
                       onClick={loadMorePublished}
                       disabled={isLoadingMorePublished}
-                      className={`px-8 py-3 bg-gradient-to-r from-tertiary/90 cursor-pointer to-tertiary text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 ${
+                      type="button"
+                      role="button"
+                      className={`px-8 py-3 bg-gradient-to-r from-tertiary/90  to-tertiary text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 cursor-pointer touch-manipulation ${
                         isLoadingMorePublished
-                          ? "opacity-60 cursor-not-allowed"
+                          ? "opacity-60"
                           : "hover:scale-105"
                       }`}
                     >

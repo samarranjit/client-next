@@ -114,7 +114,7 @@ export function usePublicationsPosts() {
             });
             
             setIsLoadingMorePublished(false);
-        }, 800);
+        }, 1800);
         
     }, [allPublishedData, publishedData, isLoadingMorePublished]);
 
