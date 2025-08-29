@@ -112,7 +112,7 @@ function OtherMember() {
 
             {/* Navigation Tabs with improved UX */}
             <div className="bg-white border-b border-slate-100 px-6 md:px-8 overflow-x-auto">
-              <div className="flex gap-0 min-w-max md:min-w-0 md:justify-center py-4">
+              <div className="flex gap-0 min-w-max md:min-w-0 md:justify-center py-4 mx-auto justify-center">
                 {[
                   {
                     key: "about",
@@ -136,7 +136,7 @@ function OtherMember() {
                     onClick={() => setActiveSection(tab.key)}
                   >
                     <span className="mr-2">{tab.icon}</span>
-                    {tab.label}
+                    <span className="hidden md:inline">{tab.label}</span>
                   </button>
                 ))}
               </div>
@@ -148,10 +148,16 @@ function OtherMember() {
               {activeSection === "about" && (
                 <div className="max-h-[50vh] md:h-[40vh]  overflow-y-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20">
                   <div className="prose prose-slate max-w-none">
+                    <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
+                      {" "}
+                      About {selectedMember.name.split(" ")[0]} :
+                    </p>
                     {selectedMember?.about ? (
-                      <p className="text-slate-700 leading-relaxed text-base md:text-lg mb-0">
-                        {selectedMember.about}
-                      </p>
+                      <>
+                        <p className="text-slate-700 leading-relaxed text-base md:text-lg mb-0">
+                          {selectedMember.about}
+                        </p>
+                      </>
                     ) : (
                       <p className="text-slate-500 italic text-center py-8">
                         No additional information available.
@@ -164,6 +170,9 @@ function OtherMember() {
               {/* Publications Section */}
               {activeSection === "publications" && (
                 <div className="max-h-[50vh] md:h-[40vh] overflow-y-auto">
+                  <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
+                    Publications :
+                  </p>
                   {selectedMember?.publications &&
                   selectedMember.publications?.length > 0 ? (
                     <div className="space-y-4">
@@ -223,6 +232,9 @@ function OtherMember() {
               {/* Contributions Section */}
               {activeSection === "contributions" && (
                 <div className="max-h-[50vh] md:h-[40vh] overflow-y-scroll">
+                  <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
+                    Contributions :
+                  </p>
                   {selectedMember?.contributions?.length > 0 ? (
                     <div className="space-y-4">
                       {selectedMember.contributions.map(
