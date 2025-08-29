@@ -18,7 +18,7 @@ interface VacancyAnnouncementProps {
 
 const VacancyAnnouncement: React.FC<VacancyAnnouncementProps> = (props) => {
   const { Data } = props;
-  console.log(Data);
+  // console.log(Data);
 
   const sanitizedBody = Data ? DOMPurify.sanitize(Data.body) : "";
 

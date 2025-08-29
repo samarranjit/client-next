@@ -20,7 +20,7 @@ export default function NewsContent() {
         })
       : [];
 
-  console.log("Sorted News:", sortedNews);
+  // console.log("Sorted News:", sortedNews);
 
   return (
     <>

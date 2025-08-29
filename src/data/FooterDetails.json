@@ -1,0 +1,34 @@
+{
+    "FooterTagLine": "Illuminating Our Community and Earth: Advancing Hydrology and Water Systems in a Changing Climate",
+    "twitter": "",
+    "github": "",
+    "email": "contact@cholab.science",
+    "linkedin": "",
+    "MailingAddress": "Bruce and Ingram, Room 5311, Texas State University, San Marcos, Texas - 78666",
+    "quickLinks": [
+        {
+            "title": "PEOPLE",
+            "url": "/about"
+        },
+        {
+            "title": "LATEST NEWS",
+            "url": "/news"
+        },
+        {
+            "title": "PUBLICATIONS",
+            "url": "/publication"
+        },
+        {
+            "title": "RESEARCH",
+            "url": "/research"
+        },
+        {
+            "title": "OPPORTUNITIES",
+            "url": "/opportunities"
+        },
+        {
+            "title": "MENTORSHIP",
+            "url": "/mentorship"
+        }
+    ]
+}

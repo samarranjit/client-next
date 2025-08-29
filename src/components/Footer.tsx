@@ -5,8 +5,22 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import { useFooterDetails } from "@/hooks/useFooterDetails";
+import { Loader } from "lucide-react";
 
 function Footer() {
+  const { FooterDetails, isLoading, error } = useFooterDetails();
+
+  // console.log("FooterDetails:", FooterDetails);
+
+  if (isLoading) {
+    return <Loader />;
+  }
+
+  if (error) {
+    return <div>Error loading footer details</div>;
+  }
+
   return (
     <div className="relative mt-16">
       {/* Simple Divider */}
@@ -49,12 +63,7 @@ function Footer() {
                   Cho Lab
                 </h3>
                 <p className="text-base text-primary/80 font-light">
-                  "{" "}
-                  <em>
-                    Illuminating Our Community and Earth: Advancing Hydrology
-                    and Water Systems in a Changing Climate{" "}
-                  </em>
-                  "
+                  " <em>{FooterDetails?.FooterTagLine}</em>"
                 </p>
                 <div className="w-16 h-0.5 bg-tertiary mx-auto md:mx-0"></div>
               </div>
@@ -62,7 +71,7 @@ function Footer() {
               {/* Social Links */}
               <div className="flex justify-center md:justify-start space-x-4 pt-4">
                 <a
-                  href="https://github.com/echo-hydro"
+                  href={FooterDetails?.github}
                   target="_blank"
                   rel="noreferrer"
                   className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
@@ -70,7 +79,7 @@ function Footer() {
                   <FaGithub className="text-2xl text-primary hover:text-tertiary transition-colors duration-200" />
                 </a>
                 <a
-                  href="https://x.com/Eunsang_UNH"
+                  href={FooterDetails?.twitter}
                   target="_blank"
                   rel="noreferrer"
                   className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
@@ -78,7 +87,7 @@ function Footer() {
                   <FaTwitter className="text-2xl text-primary hover:text-tertiary transition-colors duration-200" />
                 </a>
                 <a
-                  href="mailto:eunsang.cho@txstate.edu"
+                  href={`mailto:${FooterDetails?.email}`}
                   target="_blank"
                   rel="noreferrer"
                   className="p-3 bg-primary/10 hover:bg-primary/20 rounded-lg transition-colors duration-200"
@@ -103,9 +112,7 @@ function Footer() {
                     Mailing Address
                   </p>
                   <div className="space-y-1 text-primary/90 leading-relaxed">
-                    <p>Bruce and Ingram, Room 5311</p>
-                    <p>Texas State University</p>
-                    <p>San Marcos, Texas - 78666</p>
+                    {FooterDetails?.MailingAddress}
                   </div>
                 </div>
 
@@ -114,10 +121,10 @@ function Footer() {
                     Email
                   </p>
                   <a
-                    href="mailto:eunsang.cho@txstate.edu"
+                    href={`mailto:${FooterDetails?.email}`}
                     className="text-primary/90 hover:text-tertiary transition-colors duration-200 break-all"
                   >
-                    eunsang.cho@txstate.edu
+                    {FooterDetails?.email || "email"}
                   </a>
                 </div>
               </div>
@@ -181,7 +188,8 @@ function Footer() {
           {/* Copyright Section */}
           <div className="mt-5 md:mt-16 pt-5 border-t border-primary/20 text-center ">
             <p className="text-primary/80 text-sm md:text-base">
-              Copyright © 2024 Cho Lab. All rights Reserved.
+              Copyright © {new Date().getFullYear()} Cho Lab. All rights
+              Reserved.
             </p>
 
             <Link

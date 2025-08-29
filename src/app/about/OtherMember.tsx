@@ -36,7 +36,7 @@ function OtherMember() {
   // console.log(Data?.team[0].img);
 
   const { data: memberDetails, isLoading } = useTeamMembersDetails();
-  console.log("Member Details:", memberDetails);
+  // console.log("Member Details:", memberDetails);
 
   // Sorting the team data based on the "order" key
   const sortedTeam = memberDetails
