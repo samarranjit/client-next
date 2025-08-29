@@ -5,7 +5,7 @@ import { useIntros } from "@/hooks/useIntro";
 
 function Intro() {
   // const { Data, showLoading } = useContext(allContexts);
-  const { IntroData: Data, isLoading: showLoading, error } = useIntros();
+  const { IntroData: Data, isLoading: showLoading } = useIntros();
   // console.log("IntroData:", Data, "Loading:", showLoading, "Error:", error);
   const img = `/StaticImages/HomeBgImg.jpg`;
 
