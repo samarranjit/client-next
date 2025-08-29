@@ -273,7 +273,7 @@ function OtherMember() {
             Team Members:
           </h1>
 
-          <div className="membercards_team_members grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-5 gap-2 md:gap-[1rem] lg:gap-[2.5rem]">
+          <div className="membercards_team_members grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-5 gap-2 gap-y-7 md:gap-[1rem] lg:gap-[2.5rem]">
             {sortedTeam &&
               sortedTeam.map((item: TeamMember) => (
                 <div

@@ -25,7 +25,7 @@ export default function MemberCard({
   setIsModalOpen,
 }: MemberCardProps) {
   return (
-    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[520px] md:h-[520px]">
+    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[400px] md:h-[520px]">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
 
@@ -54,7 +54,7 @@ export default function MemberCard({
           </h3>
 
           {/* Position with consistent height */}
-          <div className="px-4 py-2 bg-white/10 rounded-full border border-white/20 mb-4 min-h-[2.5rem] flex items-center">
+          <div className="px-4 py-2 bg-white/10 rounded-full border border-none mb-4 min-h-[2.5rem] flex items-center">
             <h4 className="text-primary text-sm md:text-base font-medium text-center line-clamp-2">
               {position}
             </h4>
