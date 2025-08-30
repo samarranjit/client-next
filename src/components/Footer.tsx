@@ -43,7 +43,7 @@ function Footer() {
       <div className="bg-secondary text-primary pt-16 pb-8 flex justify-center align-center items-center">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Footer Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 justify-center items-center align-center content-center">
             {/* Lab Identity Section */}
             <div className="text-center md:text-left space-y-6">
               <div className="flex justify-center md:justify-start mb-6">

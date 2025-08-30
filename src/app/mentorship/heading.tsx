@@ -10,7 +10,7 @@ const Heading = () => {
         className="h-[80vh] md:h-[90vh] overflow-hidden bg-scroll bg-center md:bg-fixed md:bg-top bg-cover -mb-2"
       >
         <div className="w-[100%] h-[100%] bg-opacity-15 flex items-center justify-center ml-0 p-2 md:ml-0 md:p-2">
-          <div className="collaboration-call w-[90%] md:w-[60%] lg:w-[40%] p-4 gap-2 md:gap-7 md:p-10 flex flex-col items-center justify-center bg-secondary/65 bg-opacity-65">
+          <div className="collaboration-call w-[90%] md:w-[60%] lg:w-[40%] p-4 gap-2 md:gap-7 md:p-10 flex flex-col items-center justify-center bg-secondary/65 bg-opacity-65 backdrop-blur-sm">
             <p className="text-lg md:text-2xl text-tertiary text-center w-full font-semibold align-center justify-center">
               Teaching and Mentorship
             </p>
